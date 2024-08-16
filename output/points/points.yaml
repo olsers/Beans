@@ -1,0 +1,4868 @@
+beans_c1_r3:
+    x: 100
+    'y': -100
+    r: 0
+    meta:
+        stagger: 0
+        spread: 18
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 17
+        padding: 17
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: c1_r3
+        name: beans_c1_r3
+        column_net: P022
+        key:
+            row_net: P017
+        zone:
+            key:
+                padding: 1ky
+                spread: 1kx
+            columns:
+                c1:
+                    key:
+                        column_net: P022
+                    rows: {}
+                    name: c1
+                c2:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: c2
+                c3:
+                    key:
+                        stagger: 15
+                        origin:
+                            - -12
+                            - -19
+                        splay: -4
+                        column_net: P100
+                    rows: {}
+                    name: c3
+                c4:
+                    key:
+                        stagger: 5
+                        origin:
+                            - -10
+                            - -20
+                        splay: -4
+                        column_net: P011
+                    rows: {}
+                    name: c4
+                c5:
+                    key:
+                        stagger: -6
+                        origin:
+                            - -10
+                            - -10
+                        splay: -4
+                        column_net: P104
+                    rows: {}
+                    name: c5
+                c6:
+                    key:
+                        stagger: -2
+                        origin:
+                            - -5
+                            - -9
+                        splay: -4
+                        column_net: P106
+                    rows: {}
+                    name: c6
+            rows:
+                r3:
+                    key:
+                        row_net: P017
+                r2:
+                    key:
+                        row_net: P008
+                r1:
+                    key:
+                        row_net: P006
+            name: beans
+        col:
+            key:
+                column_net: P022
+            rows: {}
+            name: c1
+        row: r3
+        mirrored: false
+        bind:
+            - 10
+            - 0
+            - 0
+            - 0
+beans_c1_r2:
+    x: 100
+    'y': -83
+    r: 0
+    meta:
+        stagger: 0
+        spread: 18
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 17
+        padding: 17
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: c1_r2
+        name: beans_c1_r2
+        column_net: P022
+        key:
+            row_net: P008
+        zone:
+            key:
+                padding: 1ky
+                spread: 1kx
+            columns:
+                c1:
+                    key:
+                        column_net: P022
+                    rows: {}
+                    name: c1
+                c2:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: c2
+                c3:
+                    key:
+                        stagger: 15
+                        origin:
+                            - -12
+                            - -19
+                        splay: -4
+                        column_net: P100
+                    rows: {}
+                    name: c3
+                c4:
+                    key:
+                        stagger: 5
+                        origin:
+                            - -10
+                            - -20
+                        splay: -4
+                        column_net: P011
+                    rows: {}
+                    name: c4
+                c5:
+                    key:
+                        stagger: -6
+                        origin:
+                            - -10
+                            - -10
+                        splay: -4
+                        column_net: P104
+                    rows: {}
+                    name: c5
+                c6:
+                    key:
+                        stagger: -2
+                        origin:
+                            - -5
+                            - -9
+                        splay: -4
+                        column_net: P106
+                    rows: {}
+                    name: c6
+            rows:
+                r3:
+                    key:
+                        row_net: P017
+                r2:
+                    key:
+                        row_net: P008
+                r1:
+                    key:
+                        row_net: P006
+            name: beans
+        col:
+            key:
+                column_net: P022
+            rows: {}
+            name: c1
+        row: r2
+        mirrored: false
+        bind:
+            - 10
+            - 10
+            - 10
+            - 0
+beans_c1_r1:
+    x: 100
+    'y': -66
+    r: 0
+    meta:
+        stagger: 0
+        spread: 18
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 17
+        padding: 17
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: c1_r1
+        name: beans_c1_r1
+        column_net: P022
+        key:
+            row_net: P006
+        zone:
+            key:
+                padding: 1ky
+                spread: 1kx
+            columns:
+                c1:
+                    key:
+                        column_net: P022
+                    rows: {}
+                    name: c1
+                c2:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: c2
+                c3:
+                    key:
+                        stagger: 15
+                        origin:
+                            - -12
+                            - -19
+                        splay: -4
+                        column_net: P100
+                    rows: {}
+                    name: c3
+                c4:
+                    key:
+                        stagger: 5
+                        origin:
+                            - -10
+                            - -20
+                        splay: -4
+                        column_net: P011
+                    rows: {}
+                    name: c4
+                c5:
+                    key:
+                        stagger: -6
+                        origin:
+                            - -10
+                            - -10
+                        splay: -4
+                        column_net: P104
+                    rows: {}
+                    name: c5
+                c6:
+                    key:
+                        stagger: -2
+                        origin:
+                            - -5
+                            - -9
+                        splay: -4
+                        column_net: P106
+                    rows: {}
+                    name: c6
+            rows:
+                r3:
+                    key:
+                        row_net: P017
+                r2:
+                    key:
+                        row_net: P008
+                r1:
+                    key:
+                        row_net: P006
+            name: beans
+        col:
+            key:
+                column_net: P022
+            rows: {}
+            name: c1
+        row: r1
+        mirrored: false
+        bind:
+            - 0
+            - 10
+            - 10
+            - 0
+beans_c2_r3:
+    x: 118
+    'y': -98
+    r: 0
+    meta:
+        stagger: 2
+        spread: 18
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 17
+        padding: 17
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: c2_r3
+        name: beans_c2_r3
+        column_net: P024
+        key:
+            row_net: P017
+        zone:
+            key:
+                padding: 1ky
+                spread: 1kx
+            columns:
+                c1:
+                    key:
+                        column_net: P022
+                    rows: {}
+                    name: c1
+                c2:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: c2
+                c3:
+                    key:
+                        stagger: 15
+                        origin:
+                            - -12
+                            - -19
+                        splay: -4
+                        column_net: P100
+                    rows: {}
+                    name: c3
+                c4:
+                    key:
+                        stagger: 5
+                        origin:
+                            - -10
+                            - -20
+                        splay: -4
+                        column_net: P011
+                    rows: {}
+                    name: c4
+                c5:
+                    key:
+                        stagger: -6
+                        origin:
+                            - -10
+                            - -10
+                        splay: -4
+                        column_net: P104
+                    rows: {}
+                    name: c5
+                c6:
+                    key:
+                        stagger: -2
+                        origin:
+                            - -5
+                            - -9
+                        splay: -4
+                        column_net: P106
+                    rows: {}
+                    name: c6
+            rows:
+                r3:
+                    key:
+                        row_net: P017
+                r2:
+                    key:
+                        row_net: P008
+                r1:
+                    key:
+                        row_net: P006
+            name: beans
+        col:
+            key:
+                stagger: 2
+                column_net: P024
+            rows: {}
+            name: c2
+        row: r3
+        mirrored: false
+        bind:
+            - 10
+            - 0
+            - 0
+            - 10
+beans_c2_r2:
+    x: 118
+    'y': -81
+    r: 0
+    meta:
+        stagger: 2
+        spread: 18
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 17
+        padding: 17
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: c2_r2
+        name: beans_c2_r2
+        column_net: P024
+        key:
+            row_net: P008
+        zone:
+            key:
+                padding: 1ky
+                spread: 1kx
+            columns:
+                c1:
+                    key:
+                        column_net: P022
+                    rows: {}
+                    name: c1
+                c2:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: c2
+                c3:
+                    key:
+                        stagger: 15
+                        origin:
+                            - -12
+                            - -19
+                        splay: -4
+                        column_net: P100
+                    rows: {}
+                    name: c3
+                c4:
+                    key:
+                        stagger: 5
+                        origin:
+                            - -10
+                            - -20
+                        splay: -4
+                        column_net: P011
+                    rows: {}
+                    name: c4
+                c5:
+                    key:
+                        stagger: -6
+                        origin:
+                            - -10
+                            - -10
+                        splay: -4
+                        column_net: P104
+                    rows: {}
+                    name: c5
+                c6:
+                    key:
+                        stagger: -2
+                        origin:
+                            - -5
+                            - -9
+                        splay: -4
+                        column_net: P106
+                    rows: {}
+                    name: c6
+            rows:
+                r3:
+                    key:
+                        row_net: P017
+                r2:
+                    key:
+                        row_net: P008
+                r1:
+                    key:
+                        row_net: P006
+            name: beans
+        col:
+            key:
+                stagger: 2
+                column_net: P024
+            rows: {}
+            name: c2
+        row: r2
+        mirrored: false
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+beans_c2_r1:
+    x: 118
+    'y': -64
+    r: 0
+    meta:
+        stagger: 2
+        spread: 18
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 17
+        padding: 17
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: c2_r1
+        name: beans_c2_r1
+        column_net: P024
+        key:
+            row_net: P006
+        zone:
+            key:
+                padding: 1ky
+                spread: 1kx
+            columns:
+                c1:
+                    key:
+                        column_net: P022
+                    rows: {}
+                    name: c1
+                c2:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: c2
+                c3:
+                    key:
+                        stagger: 15
+                        origin:
+                            - -12
+                            - -19
+                        splay: -4
+                        column_net: P100
+                    rows: {}
+                    name: c3
+                c4:
+                    key:
+                        stagger: 5
+                        origin:
+                            - -10
+                            - -20
+                        splay: -4
+                        column_net: P011
+                    rows: {}
+                    name: c4
+                c5:
+                    key:
+                        stagger: -6
+                        origin:
+                            - -10
+                            - -10
+                        splay: -4
+                        column_net: P104
+                    rows: {}
+                    name: c5
+                c6:
+                    key:
+                        stagger: -2
+                        origin:
+                            - -5
+                            - -9
+                        splay: -4
+                        column_net: P106
+                    rows: {}
+                    name: c6
+            rows:
+                r3:
+                    key:
+                        row_net: P017
+                r2:
+                    key:
+                        row_net: P008
+                r1:
+                    key:
+                        row_net: P006
+            name: beans
+        col:
+            key:
+                stagger: 2
+                column_net: P024
+            rows: {}
+            name: c2
+        row: r1
+        mirrored: false
+        bind:
+            - 0
+            - 10
+            - 10
+            - 0
+beans_c3_r3:
+    x: 137.2961416
+    'y': -83.8833607
+    r: -4
+    meta:
+        stagger: 15
+        spread: 18
+        splay: -4
+        origin:
+            - -12
+            - -19
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 17
+        padding: 17
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: c3_r3
+        name: beans_c3_r3
+        column_net: P100
+        key:
+            row_net: P017
+        zone:
+            key:
+                padding: 1ky
+                spread: 1kx
+            columns:
+                c1:
+                    key:
+                        column_net: P022
+                    rows: {}
+                    name: c1
+                c2:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: c2
+                c3:
+                    key:
+                        stagger: 15
+                        origin:
+                            - -12
+                            - -19
+                        splay: -4
+                        column_net: P100
+                    rows: {}
+                    name: c3
+                c4:
+                    key:
+                        stagger: 5
+                        origin:
+                            - -10
+                            - -20
+                        splay: -4
+                        column_net: P011
+                    rows: {}
+                    name: c4
+                c5:
+                    key:
+                        stagger: -6
+                        origin:
+                            - -10
+                            - -10
+                        splay: -4
+                        column_net: P104
+                    rows: {}
+                    name: c5
+                c6:
+                    key:
+                        stagger: -2
+                        origin:
+                            - -5
+                            - -9
+                        splay: -4
+                        column_net: P106
+                    rows: {}
+                    name: c6
+            rows:
+                r3:
+                    key:
+                        row_net: P017
+                r2:
+                    key:
+                        row_net: P008
+                r1:
+                    key:
+                        row_net: P006
+            name: beans
+        col:
+            key:
+                stagger: 15
+                origin:
+                    - -12
+                    - -19
+                splay: -4
+                column_net: P100
+            rows: {}
+            name: c3
+        row: r3
+        mirrored: false
+        bind:
+            - 10
+            - 0
+            - 0
+            - 10
+beans_c3_r2:
+    x: 138.4820017
+    'y': -66.9247718
+    r: -4
+    meta:
+        stagger: 15
+        spread: 18
+        splay: -4
+        origin:
+            - -12
+            - -19
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 17
+        padding: 17
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: c3_r2
+        name: beans_c3_r2
+        column_net: P100
+        key:
+            row_net: P008
+        zone:
+            key:
+                padding: 1ky
+                spread: 1kx
+            columns:
+                c1:
+                    key:
+                        column_net: P022
+                    rows: {}
+                    name: c1
+                c2:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: c2
+                c3:
+                    key:
+                        stagger: 15
+                        origin:
+                            - -12
+                            - -19
+                        splay: -4
+                        column_net: P100
+                    rows: {}
+                    name: c3
+                c4:
+                    key:
+                        stagger: 5
+                        origin:
+                            - -10
+                            - -20
+                        splay: -4
+                        column_net: P011
+                    rows: {}
+                    name: c4
+                c5:
+                    key:
+                        stagger: -6
+                        origin:
+                            - -10
+                            - -10
+                        splay: -4
+                        column_net: P104
+                    rows: {}
+                    name: c5
+                c6:
+                    key:
+                        stagger: -2
+                        origin:
+                            - -5
+                            - -9
+                        splay: -4
+                        column_net: P106
+                    rows: {}
+                    name: c6
+            rows:
+                r3:
+                    key:
+                        row_net: P017
+                r2:
+                    key:
+                        row_net: P008
+                r1:
+                    key:
+                        row_net: P006
+            name: beans
+        col:
+            key:
+                stagger: 15
+                origin:
+                    - -12
+                    - -19
+                splay: -4
+                column_net: P100
+            rows: {}
+            name: c3
+        row: r2
+        mirrored: false
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+beans_c3_r1:
+    x: 139.66786180000003
+    'y': -49.96618290000001
+    r: -4
+    meta:
+        stagger: 15
+        spread: 18
+        splay: -4
+        origin:
+            - -12
+            - -19
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 17
+        padding: 17
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: c3_r1
+        name: beans_c3_r1
+        column_net: P100
+        key:
+            row_net: P006
+        zone:
+            key:
+                padding: 1ky
+                spread: 1kx
+            columns:
+                c1:
+                    key:
+                        column_net: P022
+                    rows: {}
+                    name: c1
+                c2:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: c2
+                c3:
+                    key:
+                        stagger: 15
+                        origin:
+                            - -12
+                            - -19
+                        splay: -4
+                        column_net: P100
+                    rows: {}
+                    name: c3
+                c4:
+                    key:
+                        stagger: 5
+                        origin:
+                            - -10
+                            - -20
+                        splay: -4
+                        column_net: P011
+                    rows: {}
+                    name: c4
+                c5:
+                    key:
+                        stagger: -6
+                        origin:
+                            - -10
+                            - -10
+                        splay: -4
+                        column_net: P104
+                    rows: {}
+                    name: c5
+                c6:
+                    key:
+                        stagger: -2
+                        origin:
+                            - -5
+                            - -9
+                        splay: -4
+                        column_net: P106
+                    rows: {}
+                    name: c6
+            rows:
+                r3:
+                    key:
+                        row_net: P017
+                r2:
+                    key:
+                        row_net: P008
+                r1:
+                    key:
+                        row_net: P006
+            name: beans
+        col:
+            key:
+                stagger: 15
+                origin:
+                    - -12
+                    - -19
+                splay: -4
+                column_net: P100
+            rows: {}
+            name: c3
+        row: r1
+        mirrored: false
+        bind:
+            - 0
+            - 10
+            - 10
+            - 0
+beans_c4_r3:
+    x: 156.9164496
+    'y': -80.9912429
+    r: -8
+    meta:
+        stagger: 5
+        spread: 18
+        splay: -4
+        origin:
+            - -10
+            - -20
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 17
+        padding: 17
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: c4_r3
+        name: beans_c4_r3
+        column_net: P011
+        key:
+            row_net: P017
+        zone:
+            key:
+                padding: 1ky
+                spread: 1kx
+            columns:
+                c1:
+                    key:
+                        column_net: P022
+                    rows: {}
+                    name: c1
+                c2:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: c2
+                c3:
+                    key:
+                        stagger: 15
+                        origin:
+                            - -12
+                            - -19
+                        splay: -4
+                        column_net: P100
+                    rows: {}
+                    name: c3
+                c4:
+                    key:
+                        stagger: 5
+                        origin:
+                            - -10
+                            - -20
+                        splay: -4
+                        column_net: P011
+                    rows: {}
+                    name: c4
+                c5:
+                    key:
+                        stagger: -6
+                        origin:
+                            - -10
+                            - -10
+                        splay: -4
+                        column_net: P104
+                    rows: {}
+                    name: c5
+                c6:
+                    key:
+                        stagger: -2
+                        origin:
+                            - -5
+                            - -9
+                        splay: -4
+                        column_net: P106
+                    rows: {}
+                    name: c6
+            rows:
+                r3:
+                    key:
+                        row_net: P017
+                r2:
+                    key:
+                        row_net: P008
+                r1:
+                    key:
+                        row_net: P006
+            name: beans
+        col:
+            key:
+                stagger: 5
+                origin:
+                    - -10
+                    - -20
+                splay: -4
+                column_net: P011
+            rows: {}
+            name: c4
+        row: r3
+        mirrored: false
+        bind:
+            - 10
+            - 10
+            - 0
+            - 10
+beans_c4_r2:
+    x: 159.2823923
+    'y': -64.1566857
+    r: -8
+    meta:
+        stagger: 5
+        spread: 18
+        splay: -4
+        origin:
+            - -10
+            - -20
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 17
+        padding: 17
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: c4_r2
+        name: beans_c4_r2
+        column_net: P011
+        key:
+            row_net: P008
+        zone:
+            key:
+                padding: 1ky
+                spread: 1kx
+            columns:
+                c1:
+                    key:
+                        column_net: P022
+                    rows: {}
+                    name: c1
+                c2:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: c2
+                c3:
+                    key:
+                        stagger: 15
+                        origin:
+                            - -12
+                            - -19
+                        splay: -4
+                        column_net: P100
+                    rows: {}
+                    name: c3
+                c4:
+                    key:
+                        stagger: 5
+                        origin:
+                            - -10
+                            - -20
+                        splay: -4
+                        column_net: P011
+                    rows: {}
+                    name: c4
+                c5:
+                    key:
+                        stagger: -6
+                        origin:
+                            - -10
+                            - -10
+                        splay: -4
+                        column_net: P104
+                    rows: {}
+                    name: c5
+                c6:
+                    key:
+                        stagger: -2
+                        origin:
+                            - -5
+                            - -9
+                        splay: -4
+                        column_net: P106
+                    rows: {}
+                    name: c6
+            rows:
+                r3:
+                    key:
+                        row_net: P017
+                r2:
+                    key:
+                        row_net: P008
+                r1:
+                    key:
+                        row_net: P006
+            name: beans
+        col:
+            key:
+                stagger: 5
+                origin:
+                    - -10
+                    - -20
+                splay: -4
+                column_net: P011
+            rows: {}
+            name: c4
+        row: r2
+        mirrored: false
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+beans_c4_r1:
+    x: 161.648335
+    'y': -47.3221285
+    r: -8
+    meta:
+        stagger: 5
+        spread: 18
+        splay: -4
+        origin:
+            - -10
+            - -20
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 17
+        padding: 17
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: c4_r1
+        name: beans_c4_r1
+        column_net: P011
+        key:
+            row_net: P006
+        zone:
+            key:
+                padding: 1ky
+                spread: 1kx
+            columns:
+                c1:
+                    key:
+                        column_net: P022
+                    rows: {}
+                    name: c1
+                c2:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: c2
+                c3:
+                    key:
+                        stagger: 15
+                        origin:
+                            - -12
+                            - -19
+                        splay: -4
+                        column_net: P100
+                    rows: {}
+                    name: c3
+                c4:
+                    key:
+                        stagger: 5
+                        origin:
+                            - -10
+                            - -20
+                        splay: -4
+                        column_net: P011
+                    rows: {}
+                    name: c4
+                c5:
+                    key:
+                        stagger: -6
+                        origin:
+                            - -10
+                            - -10
+                        splay: -4
+                        column_net: P104
+                    rows: {}
+                    name: c5
+                c6:
+                    key:
+                        stagger: -2
+                        origin:
+                            - -5
+                            - -9
+                        splay: -4
+                        column_net: P106
+                    rows: {}
+                    name: c6
+            rows:
+                r3:
+                    key:
+                        row_net: P017
+                r2:
+                    key:
+                        row_net: P008
+                r1:
+                    key:
+                        row_net: P006
+            name: beans
+        col:
+            key:
+                stagger: 5
+                origin:
+                    - -10
+                    - -20
+                splay: -4
+                column_net: P011
+            rows: {}
+            name: c4
+        row: r1
+        mirrored: false
+        bind:
+            - 0
+            - 0
+            - 10
+            - 0
+beans_c5_r3:
+    x: 174.47241739999998
+    'y': -90.24655770000001
+    r: -12
+    meta:
+        stagger: -6
+        spread: 18
+        splay: -4
+        origin:
+            - -10
+            - -10
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 17
+        padding: 17
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: c5_r3
+        name: beans_c5_r3
+        column_net: P104
+        key:
+            row_net: P017
+        zone:
+            key:
+                padding: 1ky
+                spread: 1kx
+            columns:
+                c1:
+                    key:
+                        column_net: P022
+                    rows: {}
+                    name: c1
+                c2:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: c2
+                c3:
+                    key:
+                        stagger: 15
+                        origin:
+                            - -12
+                            - -19
+                        splay: -4
+                        column_net: P100
+                    rows: {}
+                    name: c3
+                c4:
+                    key:
+                        stagger: 5
+                        origin:
+                            - -10
+                            - -20
+                        splay: -4
+                        column_net: P011
+                    rows: {}
+                    name: c4
+                c5:
+                    key:
+                        stagger: -6
+                        origin:
+                            - -10
+                            - -10
+                        splay: -4
+                        column_net: P104
+                    rows: {}
+                    name: c5
+                c6:
+                    key:
+                        stagger: -2
+                        origin:
+                            - -5
+                            - -9
+                        splay: -4
+                        column_net: P106
+                    rows: {}
+                    name: c6
+            rows:
+                r3:
+                    key:
+                        row_net: P017
+                r2:
+                    key:
+                        row_net: P008
+                r1:
+                    key:
+                        row_net: P006
+            name: beans
+        col:
+            key:
+                stagger: -6
+                origin:
+                    - -10
+                    - -10
+                splay: -4
+                column_net: P104
+            rows: {}
+            name: c5
+        row: r3
+        mirrored: false
+        bind:
+            - 10
+            - 10
+            - 0
+            - 0
+beans_c5_r2:
+    x: 178.00691609999998
+    'y': -73.61804850000001
+    r: -12
+    meta:
+        stagger: -6
+        spread: 18
+        splay: -4
+        origin:
+            - -10
+            - -10
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 17
+        padding: 17
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: c5_r2
+        name: beans_c5_r2
+        column_net: P104
+        key:
+            row_net: P008
+        zone:
+            key:
+                padding: 1ky
+                spread: 1kx
+            columns:
+                c1:
+                    key:
+                        column_net: P022
+                    rows: {}
+                    name: c1
+                c2:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: c2
+                c3:
+                    key:
+                        stagger: 15
+                        origin:
+                            - -12
+                            - -19
+                        splay: -4
+                        column_net: P100
+                    rows: {}
+                    name: c3
+                c4:
+                    key:
+                        stagger: 5
+                        origin:
+                            - -10
+                            - -20
+                        splay: -4
+                        column_net: P011
+                    rows: {}
+                    name: c4
+                c5:
+                    key:
+                        stagger: -6
+                        origin:
+                            - -10
+                            - -10
+                        splay: -4
+                        column_net: P104
+                    rows: {}
+                    name: c5
+                c6:
+                    key:
+                        stagger: -2
+                        origin:
+                            - -5
+                            - -9
+                        splay: -4
+                        column_net: P106
+                    rows: {}
+                    name: c6
+            rows:
+                r3:
+                    key:
+                        row_net: P017
+                r2:
+                    key:
+                        row_net: P008
+                r1:
+                    key:
+                        row_net: P006
+            name: beans
+        col:
+            key:
+                stagger: -6
+                origin:
+                    - -10
+                    - -10
+                splay: -4
+                column_net: P104
+            rows: {}
+            name: c5
+        row: r2
+        mirrored: false
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+beans_c5_r1:
+    x: 181.54141479999998
+    'y': -56.98953930000002
+    r: -12
+    meta:
+        stagger: -6
+        spread: 18
+        splay: -4
+        origin:
+            - -10
+            - -10
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 17
+        padding: 17
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: c5_r1
+        name: beans_c5_r1
+        column_net: P104
+        key:
+            row_net: P006
+        zone:
+            key:
+                padding: 1ky
+                spread: 1kx
+            columns:
+                c1:
+                    key:
+                        column_net: P022
+                    rows: {}
+                    name: c1
+                c2:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: c2
+                c3:
+                    key:
+                        stagger: 15
+                        origin:
+                            - -12
+                            - -19
+                        splay: -4
+                        column_net: P100
+                    rows: {}
+                    name: c3
+                c4:
+                    key:
+                        stagger: 5
+                        origin:
+                            - -10
+                            - -20
+                        splay: -4
+                        column_net: P011
+                    rows: {}
+                    name: c4
+                c5:
+                    key:
+                        stagger: -6
+                        origin:
+                            - -10
+                            - -10
+                        splay: -4
+                        column_net: P104
+                    rows: {}
+                    name: c5
+                c6:
+                    key:
+                        stagger: -2
+                        origin:
+                            - -5
+                            - -9
+                        splay: -4
+                        column_net: P106
+                    rows: {}
+                    name: c6
+            rows:
+                r3:
+                    key:
+                        row_net: P017
+                r2:
+                    key:
+                        row_net: P008
+                r1:
+                    key:
+                        row_net: P006
+            name: beans
+        col:
+            key:
+                stagger: -6
+                origin:
+                    - -10
+                    - -10
+                splay: -4
+                column_net: P104
+            rows: {}
+            name: c5
+        row: r1
+        mirrored: false
+        bind:
+            - 0
+            - 0
+            - 10
+            - 10
+beans_c6_r3:
+    x: 192.18835239999999
+    'y': -96.4358649
+    r: -16
+    meta:
+        stagger: -2
+        spread: 18
+        splay: -4
+        origin:
+            - -5
+            - -9
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 17
+        padding: 17
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: c6_r3
+        name: beans_c6_r3
+        column_net: P106
+        key:
+            row_net: P017
+        zone:
+            key:
+                padding: 1ky
+                spread: 1kx
+            columns:
+                c1:
+                    key:
+                        column_net: P022
+                    rows: {}
+                    name: c1
+                c2:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: c2
+                c3:
+                    key:
+                        stagger: 15
+                        origin:
+                            - -12
+                            - -19
+                        splay: -4
+                        column_net: P100
+                    rows: {}
+                    name: c3
+                c4:
+                    key:
+                        stagger: 5
+                        origin:
+                            - -10
+                            - -20
+                        splay: -4
+                        column_net: P011
+                    rows: {}
+                    name: c4
+                c5:
+                    key:
+                        stagger: -6
+                        origin:
+                            - -10
+                            - -10
+                        splay: -4
+                        column_net: P104
+                    rows: {}
+                    name: c5
+                c6:
+                    key:
+                        stagger: -2
+                        origin:
+                            - -5
+                            - -9
+                        splay: -4
+                        column_net: P106
+                    rows: {}
+                    name: c6
+            rows:
+                r3:
+                    key:
+                        row_net: P017
+                r2:
+                    key:
+                        row_net: P008
+                r1:
+                    key:
+                        row_net: P006
+            name: beans
+        col:
+            key:
+                stagger: -2
+                origin:
+                    - -5
+                    - -9
+                splay: -4
+                column_net: P106
+            rows: {}
+            name: c6
+        row: r3
+        mirrored: false
+        bind:
+            - 10
+            - 0
+            - 0
+            - 0
+beans_c6_r2:
+    x: 196.87418739999998
+    'y': -80.0944161
+    r: -16
+    meta:
+        stagger: -2
+        spread: 18
+        splay: -4
+        origin:
+            - -5
+            - -9
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 17
+        padding: 17
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: c6_r2
+        name: beans_c6_r2
+        column_net: P106
+        key:
+            row_net: P008
+        zone:
+            key:
+                padding: 1ky
+                spread: 1kx
+            columns:
+                c1:
+                    key:
+                        column_net: P022
+                    rows: {}
+                    name: c1
+                c2:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: c2
+                c3:
+                    key:
+                        stagger: 15
+                        origin:
+                            - -12
+                            - -19
+                        splay: -4
+                        column_net: P100
+                    rows: {}
+                    name: c3
+                c4:
+                    key:
+                        stagger: 5
+                        origin:
+                            - -10
+                            - -20
+                        splay: -4
+                        column_net: P011
+                    rows: {}
+                    name: c4
+                c5:
+                    key:
+                        stagger: -6
+                        origin:
+                            - -10
+                            - -10
+                        splay: -4
+                        column_net: P104
+                    rows: {}
+                    name: c5
+                c6:
+                    key:
+                        stagger: -2
+                        origin:
+                            - -5
+                            - -9
+                        splay: -4
+                        column_net: P106
+                    rows: {}
+                    name: c6
+            rows:
+                r3:
+                    key:
+                        row_net: P017
+                r2:
+                    key:
+                        row_net: P008
+                r1:
+                    key:
+                        row_net: P006
+            name: beans
+        col:
+            key:
+                stagger: -2
+                origin:
+                    - -5
+                    - -9
+                splay: -4
+                column_net: P106
+            rows: {}
+            name: c6
+        row: r2
+        mirrored: false
+        bind:
+            - 10
+            - 0
+            - 10
+            - 10
+beans_c6_r1:
+    x: 201.56002239999998
+    'y': -63.75296730000001
+    r: -16
+    meta:
+        stagger: -2
+        spread: 18
+        splay: -4
+        origin:
+            - -5
+            - -9
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 17
+        padding: 17
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: c6_r1
+        name: beans_c6_r1
+        column_net: P106
+        key:
+            row_net: P006
+        zone:
+            key:
+                padding: 1ky
+                spread: 1kx
+            columns:
+                c1:
+                    key:
+                        column_net: P022
+                    rows: {}
+                    name: c1
+                c2:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: c2
+                c3:
+                    key:
+                        stagger: 15
+                        origin:
+                            - -12
+                            - -19
+                        splay: -4
+                        column_net: P100
+                    rows: {}
+                    name: c3
+                c4:
+                    key:
+                        stagger: 5
+                        origin:
+                            - -10
+                            - -20
+                        splay: -4
+                        column_net: P011
+                    rows: {}
+                    name: c4
+                c5:
+                    key:
+                        stagger: -6
+                        origin:
+                            - -10
+                            - -10
+                        splay: -4
+                        column_net: P104
+                    rows: {}
+                    name: c5
+                c6:
+                    key:
+                        stagger: -2
+                        origin:
+                            - -5
+                            - -9
+                        splay: -4
+                        column_net: P106
+                    rows: {}
+                    name: c6
+            rows:
+                r3:
+                    key:
+                        row_net: P017
+                r2:
+                    key:
+                        row_net: P008
+                r1:
+                    key:
+                        row_net: P006
+            name: beans
+        col:
+            key:
+                stagger: -2
+                origin:
+                    - -5
+                    - -9
+                splay: -4
+                column_net: P106
+            rows: {}
+            name: c6
+        row: r1
+        mirrored: false
+        bind:
+            - 0
+            - 0
+            - 10
+            - 10
+thumbs_tc1_tr1:
+    x: 137.09998399999998
+    'y': -103.52611710000001
+    r: -6
+    meta:
+        stagger: 0
+        spread: 18
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 17
+        padding: 17
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: tc1_tr1
+        name: thumbs_tc1_tr1
+        key:
+            row_net: P020
+        zone:
+            key:
+                padding: 1ky
+                spread: 1kx
+            columns:
+                tc1: null
+                tc2:
+                    key:
+                        stagger: 1
+                        origin:
+                            - -9
+                            - -10
+                        splay: -4
+                    rows: {}
+                    name: tc2
+                tc3:
+                    key:
+                        stagger: 0
+                        origin:
+                            - -9
+                            - -9
+                        splay: -8
+                    rows: {}
+                    name: tc3
+                tc4:
+                    key:
+                        stagger: 0
+                        origin:
+                            - -9
+                            - -9
+                        splay: -20
+                    rows: {}
+                    name: tc4
+                tc5:
+                    key:
+                        stagger: 0
+                        origin:
+                            - -9
+                            - -9
+                        splay: -20
+                    rows: {}
+                    name: tc5
+            rows:
+                tr1:
+                    key:
+                        row_net: P020
+            name: thumbs
+        col:
+            rows: {}
+            key: {}
+            name: tc1
+        row: tr1
+        mirrored: false
+        bind:
+            - 0
+            - 0
+            - 0
+            - 0
+thumbs_tc2_tr1:
+    x: 155.70967649999997
+    'y': -105.13232640000001
+    r: -10
+    meta:
+        stagger: 1
+        spread: 18
+        splay: -4
+        origin:
+            - -9
+            - -10
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 17
+        padding: 17
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: tc2_tr1
+        name: thumbs_tc2_tr1
+        key:
+            row_net: P020
+        zone:
+            key:
+                padding: 1ky
+                spread: 1kx
+            columns:
+                tc1: null
+                tc2:
+                    key:
+                        stagger: 1
+                        origin:
+                            - -9
+                            - -10
+                        splay: -4
+                    rows: {}
+                    name: tc2
+                tc3:
+                    key:
+                        stagger: 0
+                        origin:
+                            - -9
+                            - -9
+                        splay: -8
+                    rows: {}
+                    name: tc3
+                tc4:
+                    key:
+                        stagger: 0
+                        origin:
+                            - -9
+                            - -9
+                        splay: -20
+                    rows: {}
+                    name: tc4
+                tc5:
+                    key:
+                        stagger: 0
+                        origin:
+                            - -9
+                            - -9
+                        splay: -20
+                    rows: {}
+                    name: tc5
+            rows:
+                tr1:
+                    key:
+                        row_net: P020
+            name: thumbs
+        col:
+            key:
+                stagger: 1
+                origin:
+                    - -9
+                    - -10
+                splay: -4
+            rows: {}
+            name: tc2
+        row: tr1
+        mirrored: false
+        bind:
+            - 0
+            - 0
+            - 0
+            - 0
+thumbs_tc3_tr1:
+    x: 174.3507742
+    'y': -109.78007410000001
+    r: -18
+    meta:
+        stagger: 0
+        spread: 18
+        splay: -8
+        origin:
+            - -9
+            - -9
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 17
+        padding: 17
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: tc3_tr1
+        name: thumbs_tc3_tr1
+        key:
+            row_net: P020
+        zone:
+            key:
+                padding: 1ky
+                spread: 1kx
+            columns:
+                tc1: null
+                tc2:
+                    key:
+                        stagger: 1
+                        origin:
+                            - -9
+                            - -10
+                        splay: -4
+                    rows: {}
+                    name: tc2
+                tc3:
+                    key:
+                        stagger: 0
+                        origin:
+                            - -9
+                            - -9
+                        splay: -8
+                    rows: {}
+                    name: tc3
+                tc4:
+                    key:
+                        stagger: 0
+                        origin:
+                            - -9
+                            - -9
+                        splay: -20
+                    rows: {}
+                    name: tc4
+                tc5:
+                    key:
+                        stagger: 0
+                        origin:
+                            - -9
+                            - -9
+                        splay: -20
+                    rows: {}
+                    name: tc5
+            rows:
+                tr1:
+                    key:
+                        row_net: P020
+            name: thumbs
+        col:
+            key:
+                stagger: 0
+                origin:
+                    - -9
+                    - -9
+                splay: -8
+            rows: {}
+            name: tc3
+        row: tr1
+        mirrored: false
+        bind:
+            - 0
+            - 0
+            - 0
+            - 0
+thumbs_tc4_tr1:
+    x: 192.76217999999997
+    'y': -119.56959220000002
+    r: -38
+    meta:
+        stagger: 0
+        spread: 18
+        splay: -20
+        origin:
+            - -9
+            - -9
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 17
+        padding: 17
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: tc4_tr1
+        name: thumbs_tc4_tr1
+        key:
+            row_net: P020
+        zone:
+            key:
+                padding: 1ky
+                spread: 1kx
+            columns:
+                tc1: null
+                tc2:
+                    key:
+                        stagger: 1
+                        origin:
+                            - -9
+                            - -10
+                        splay: -4
+                    rows: {}
+                    name: tc2
+                tc3:
+                    key:
+                        stagger: 0
+                        origin:
+                            - -9
+                            - -9
+                        splay: -8
+                    rows: {}
+                    name: tc3
+                tc4:
+                    key:
+                        stagger: 0
+                        origin:
+                            - -9
+                            - -9
+                        splay: -20
+                    rows: {}
+                    name: tc4
+                tc5:
+                    key:
+                        stagger: 0
+                        origin:
+                            - -9
+                            - -9
+                        splay: -20
+                    rows: {}
+                    name: tc5
+            rows:
+                tr1:
+                    key:
+                        row_net: P020
+            name: thumbs
+        col:
+            key:
+                stagger: 0
+                origin:
+                    - -9
+                    - -9
+                splay: -20
+            rows: {}
+            name: tc4
+        row: tr1
+        mirrored: false
+        bind:
+            - 0
+            - 0
+            - 0
+            - 0
+thumbs_tc5_tr1:
+    x: 206.71502969999997
+    'y': -135.0658018
+    r: -58
+    meta:
+        stagger: 0
+        spread: 18
+        splay: -20
+        origin:
+            - -9
+            - -9
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 17
+        padding: 17
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: tc5_tr1
+        name: thumbs_tc5_tr1
+        key:
+            row_net: P020
+        zone:
+            key:
+                padding: 1ky
+                spread: 1kx
+            columns:
+                tc1: null
+                tc2:
+                    key:
+                        stagger: 1
+                        origin:
+                            - -9
+                            - -10
+                        splay: -4
+                    rows: {}
+                    name: tc2
+                tc3:
+                    key:
+                        stagger: 0
+                        origin:
+                            - -9
+                            - -9
+                        splay: -8
+                    rows: {}
+                    name: tc3
+                tc4:
+                    key:
+                        stagger: 0
+                        origin:
+                            - -9
+                            - -9
+                        splay: -20
+                    rows: {}
+                    name: tc4
+                tc5:
+                    key:
+                        stagger: 0
+                        origin:
+                            - -9
+                            - -9
+                        splay: -20
+                    rows: {}
+                    name: tc5
+            rows:
+                tr1:
+                    key:
+                        row_net: P020
+            name: thumbs
+        col:
+            key:
+                stagger: 0
+                origin:
+                    - -9
+                    - -9
+                splay: -20
+            rows: {}
+            name: tc5
+        row: tr1
+        mirrored: false
+        bind:
+            - 0
+            - 0
+            - 0
+            - 0
+mirror_beans_c1_r3:
+    x: 393.12004479999996
+    'y': -100
+    r: -0.0
+    meta:
+        stagger: 0
+        spread: 18
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 17
+        padding: 17
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_c1_r3
+        name: mirror_beans_c1_r3
+        column_net: P022
+        key:
+            row_net: P017
+        zone:
+            key:
+                padding: 1ky
+                spread: 1kx
+            columns:
+                c1:
+                    key:
+                        column_net: P022
+                    rows: {}
+                    name: c1
+                c2:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: c2
+                c3:
+                    key:
+                        stagger: 15
+                        origin:
+                            - -12
+                            - -19
+                        splay: -4
+                        column_net: P100
+                    rows: {}
+                    name: c3
+                c4:
+                    key:
+                        stagger: 5
+                        origin:
+                            - -10
+                            - -20
+                        splay: -4
+                        column_net: P011
+                    rows: {}
+                    name: c4
+                c5:
+                    key:
+                        stagger: -6
+                        origin:
+                            - -10
+                            - -10
+                        splay: -4
+                        column_net: P104
+                    rows: {}
+                    name: c5
+                c6:
+                    key:
+                        stagger: -2
+                        origin:
+                            - -5
+                            - -9
+                        splay: -4
+                        column_net: P106
+                    rows: {}
+                    name: c6
+            rows:
+                r3:
+                    key:
+                        row_net: P017
+                r2:
+                    key:
+                        row_net: P008
+                r1:
+                    key:
+                        row_net: P006
+            name: beans
+        col:
+            key:
+                column_net: P022
+            rows: {}
+            name: c1
+        row: r3
+        mirrored: true
+        bind:
+            - 10
+            - 0
+            - 0
+            - 0
+mirror_beans_c1_r2:
+    x: 393.12004479999996
+    'y': -83
+    r: -0.0
+    meta:
+        stagger: 0
+        spread: 18
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 17
+        padding: 17
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_c1_r2
+        name: mirror_beans_c1_r2
+        column_net: P022
+        key:
+            row_net: P008
+        zone:
+            key:
+                padding: 1ky
+                spread: 1kx
+            columns:
+                c1:
+                    key:
+                        column_net: P022
+                    rows: {}
+                    name: c1
+                c2:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: c2
+                c3:
+                    key:
+                        stagger: 15
+                        origin:
+                            - -12
+                            - -19
+                        splay: -4
+                        column_net: P100
+                    rows: {}
+                    name: c3
+                c4:
+                    key:
+                        stagger: 5
+                        origin:
+                            - -10
+                            - -20
+                        splay: -4
+                        column_net: P011
+                    rows: {}
+                    name: c4
+                c5:
+                    key:
+                        stagger: -6
+                        origin:
+                            - -10
+                            - -10
+                        splay: -4
+                        column_net: P104
+                    rows: {}
+                    name: c5
+                c6:
+                    key:
+                        stagger: -2
+                        origin:
+                            - -5
+                            - -9
+                        splay: -4
+                        column_net: P106
+                    rows: {}
+                    name: c6
+            rows:
+                r3:
+                    key:
+                        row_net: P017
+                r2:
+                    key:
+                        row_net: P008
+                r1:
+                    key:
+                        row_net: P006
+            name: beans
+        col:
+            key:
+                column_net: P022
+            rows: {}
+            name: c1
+        row: r2
+        mirrored: true
+        bind:
+            - 10
+            - 10
+            - 10
+            - 0
+mirror_beans_c1_r1:
+    x: 393.12004479999996
+    'y': -66
+    r: -0.0
+    meta:
+        stagger: 0
+        spread: 18
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 17
+        padding: 17
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_c1_r1
+        name: mirror_beans_c1_r1
+        column_net: P022
+        key:
+            row_net: P006
+        zone:
+            key:
+                padding: 1ky
+                spread: 1kx
+            columns:
+                c1:
+                    key:
+                        column_net: P022
+                    rows: {}
+                    name: c1
+                c2:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: c2
+                c3:
+                    key:
+                        stagger: 15
+                        origin:
+                            - -12
+                            - -19
+                        splay: -4
+                        column_net: P100
+                    rows: {}
+                    name: c3
+                c4:
+                    key:
+                        stagger: 5
+                        origin:
+                            - -10
+                            - -20
+                        splay: -4
+                        column_net: P011
+                    rows: {}
+                    name: c4
+                c5:
+                    key:
+                        stagger: -6
+                        origin:
+                            - -10
+                            - -10
+                        splay: -4
+                        column_net: P104
+                    rows: {}
+                    name: c5
+                c6:
+                    key:
+                        stagger: -2
+                        origin:
+                            - -5
+                            - -9
+                        splay: -4
+                        column_net: P106
+                    rows: {}
+                    name: c6
+            rows:
+                r3:
+                    key:
+                        row_net: P017
+                r2:
+                    key:
+                        row_net: P008
+                r1:
+                    key:
+                        row_net: P006
+            name: beans
+        col:
+            key:
+                column_net: P022
+            rows: {}
+            name: c1
+        row: r1
+        mirrored: true
+        bind:
+            - 0
+            - 10
+            - 10
+            - 0
+mirror_beans_c2_r3:
+    x: 375.12004479999996
+    'y': -98
+    r: -0.0
+    meta:
+        stagger: 2
+        spread: 18
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 17
+        padding: 17
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_c2_r3
+        name: mirror_beans_c2_r3
+        column_net: P024
+        key:
+            row_net: P017
+        zone:
+            key:
+                padding: 1ky
+                spread: 1kx
+            columns:
+                c1:
+                    key:
+                        column_net: P022
+                    rows: {}
+                    name: c1
+                c2:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: c2
+                c3:
+                    key:
+                        stagger: 15
+                        origin:
+                            - -12
+                            - -19
+                        splay: -4
+                        column_net: P100
+                    rows: {}
+                    name: c3
+                c4:
+                    key:
+                        stagger: 5
+                        origin:
+                            - -10
+                            - -20
+                        splay: -4
+                        column_net: P011
+                    rows: {}
+                    name: c4
+                c5:
+                    key:
+                        stagger: -6
+                        origin:
+                            - -10
+                            - -10
+                        splay: -4
+                        column_net: P104
+                    rows: {}
+                    name: c5
+                c6:
+                    key:
+                        stagger: -2
+                        origin:
+                            - -5
+                            - -9
+                        splay: -4
+                        column_net: P106
+                    rows: {}
+                    name: c6
+            rows:
+                r3:
+                    key:
+                        row_net: P017
+                r2:
+                    key:
+                        row_net: P008
+                r1:
+                    key:
+                        row_net: P006
+            name: beans
+        col:
+            key:
+                stagger: 2
+                column_net: P024
+            rows: {}
+            name: c2
+        row: r3
+        mirrored: true
+        bind:
+            - 10
+            - 0
+            - 0
+            - 10
+mirror_beans_c2_r2:
+    x: 375.12004479999996
+    'y': -81
+    r: -0.0
+    meta:
+        stagger: 2
+        spread: 18
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 17
+        padding: 17
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_c2_r2
+        name: mirror_beans_c2_r2
+        column_net: P024
+        key:
+            row_net: P008
+        zone:
+            key:
+                padding: 1ky
+                spread: 1kx
+            columns:
+                c1:
+                    key:
+                        column_net: P022
+                    rows: {}
+                    name: c1
+                c2:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: c2
+                c3:
+                    key:
+                        stagger: 15
+                        origin:
+                            - -12
+                            - -19
+                        splay: -4
+                        column_net: P100
+                    rows: {}
+                    name: c3
+                c4:
+                    key:
+                        stagger: 5
+                        origin:
+                            - -10
+                            - -20
+                        splay: -4
+                        column_net: P011
+                    rows: {}
+                    name: c4
+                c5:
+                    key:
+                        stagger: -6
+                        origin:
+                            - -10
+                            - -10
+                        splay: -4
+                        column_net: P104
+                    rows: {}
+                    name: c5
+                c6:
+                    key:
+                        stagger: -2
+                        origin:
+                            - -5
+                            - -9
+                        splay: -4
+                        column_net: P106
+                    rows: {}
+                    name: c6
+            rows:
+                r3:
+                    key:
+                        row_net: P017
+                r2:
+                    key:
+                        row_net: P008
+                r1:
+                    key:
+                        row_net: P006
+            name: beans
+        col:
+            key:
+                stagger: 2
+                column_net: P024
+            rows: {}
+            name: c2
+        row: r2
+        mirrored: true
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+mirror_beans_c2_r1:
+    x: 375.12004479999996
+    'y': -64
+    r: -0.0
+    meta:
+        stagger: 2
+        spread: 18
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 17
+        padding: 17
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_c2_r1
+        name: mirror_beans_c2_r1
+        column_net: P024
+        key:
+            row_net: P006
+        zone:
+            key:
+                padding: 1ky
+                spread: 1kx
+            columns:
+                c1:
+                    key:
+                        column_net: P022
+                    rows: {}
+                    name: c1
+                c2:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: c2
+                c3:
+                    key:
+                        stagger: 15
+                        origin:
+                            - -12
+                            - -19
+                        splay: -4
+                        column_net: P100
+                    rows: {}
+                    name: c3
+                c4:
+                    key:
+                        stagger: 5
+                        origin:
+                            - -10
+                            - -20
+                        splay: -4
+                        column_net: P011
+                    rows: {}
+                    name: c4
+                c5:
+                    key:
+                        stagger: -6
+                        origin:
+                            - -10
+                            - -10
+                        splay: -4
+                        column_net: P104
+                    rows: {}
+                    name: c5
+                c6:
+                    key:
+                        stagger: -2
+                        origin:
+                            - -5
+                            - -9
+                        splay: -4
+                        column_net: P106
+                    rows: {}
+                    name: c6
+            rows:
+                r3:
+                    key:
+                        row_net: P017
+                r2:
+                    key:
+                        row_net: P008
+                r1:
+                    key:
+                        row_net: P006
+            name: beans
+        col:
+            key:
+                stagger: 2
+                column_net: P024
+            rows: {}
+            name: c2
+        row: r1
+        mirrored: true
+        bind:
+            - 0
+            - 10
+            - 10
+            - 0
+mirror_beans_c3_r3:
+    x: 355.82390319999996
+    'y': -83.8833607
+    r: 4
+    meta:
+        stagger: 15
+        spread: 18
+        splay: -4
+        origin:
+            - -12
+            - -19
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 17
+        padding: 17
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_c3_r3
+        name: mirror_beans_c3_r3
+        column_net: P100
+        key:
+            row_net: P017
+        zone:
+            key:
+                padding: 1ky
+                spread: 1kx
+            columns:
+                c1:
+                    key:
+                        column_net: P022
+                    rows: {}
+                    name: c1
+                c2:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: c2
+                c3:
+                    key:
+                        stagger: 15
+                        origin:
+                            - -12
+                            - -19
+                        splay: -4
+                        column_net: P100
+                    rows: {}
+                    name: c3
+                c4:
+                    key:
+                        stagger: 5
+                        origin:
+                            - -10
+                            - -20
+                        splay: -4
+                        column_net: P011
+                    rows: {}
+                    name: c4
+                c5:
+                    key:
+                        stagger: -6
+                        origin:
+                            - -10
+                            - -10
+                        splay: -4
+                        column_net: P104
+                    rows: {}
+                    name: c5
+                c6:
+                    key:
+                        stagger: -2
+                        origin:
+                            - -5
+                            - -9
+                        splay: -4
+                        column_net: P106
+                    rows: {}
+                    name: c6
+            rows:
+                r3:
+                    key:
+                        row_net: P017
+                r2:
+                    key:
+                        row_net: P008
+                r1:
+                    key:
+                        row_net: P006
+            name: beans
+        col:
+            key:
+                stagger: 15
+                origin:
+                    - -12
+                    - -19
+                splay: -4
+                column_net: P100
+            rows: {}
+            name: c3
+        row: r3
+        mirrored: true
+        bind:
+            - 10
+            - 0
+            - 0
+            - 10
+mirror_beans_c3_r2:
+    x: 354.63804309999995
+    'y': -66.9247718
+    r: 4
+    meta:
+        stagger: 15
+        spread: 18
+        splay: -4
+        origin:
+            - -12
+            - -19
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 17
+        padding: 17
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_c3_r2
+        name: mirror_beans_c3_r2
+        column_net: P100
+        key:
+            row_net: P008
+        zone:
+            key:
+                padding: 1ky
+                spread: 1kx
+            columns:
+                c1:
+                    key:
+                        column_net: P022
+                    rows: {}
+                    name: c1
+                c2:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: c2
+                c3:
+                    key:
+                        stagger: 15
+                        origin:
+                            - -12
+                            - -19
+                        splay: -4
+                        column_net: P100
+                    rows: {}
+                    name: c3
+                c4:
+                    key:
+                        stagger: 5
+                        origin:
+                            - -10
+                            - -20
+                        splay: -4
+                        column_net: P011
+                    rows: {}
+                    name: c4
+                c5:
+                    key:
+                        stagger: -6
+                        origin:
+                            - -10
+                            - -10
+                        splay: -4
+                        column_net: P104
+                    rows: {}
+                    name: c5
+                c6:
+                    key:
+                        stagger: -2
+                        origin:
+                            - -5
+                            - -9
+                        splay: -4
+                        column_net: P106
+                    rows: {}
+                    name: c6
+            rows:
+                r3:
+                    key:
+                        row_net: P017
+                r2:
+                    key:
+                        row_net: P008
+                r1:
+                    key:
+                        row_net: P006
+            name: beans
+        col:
+            key:
+                stagger: 15
+                origin:
+                    - -12
+                    - -19
+                splay: -4
+                column_net: P100
+            rows: {}
+            name: c3
+        row: r2
+        mirrored: true
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+mirror_beans_c3_r1:
+    x: 353.45218299999993
+    'y': -49.96618290000001
+    r: 4
+    meta:
+        stagger: 15
+        spread: 18
+        splay: -4
+        origin:
+            - -12
+            - -19
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 17
+        padding: 17
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_c3_r1
+        name: mirror_beans_c3_r1
+        column_net: P100
+        key:
+            row_net: P006
+        zone:
+            key:
+                padding: 1ky
+                spread: 1kx
+            columns:
+                c1:
+                    key:
+                        column_net: P022
+                    rows: {}
+                    name: c1
+                c2:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: c2
+                c3:
+                    key:
+                        stagger: 15
+                        origin:
+                            - -12
+                            - -19
+                        splay: -4
+                        column_net: P100
+                    rows: {}
+                    name: c3
+                c4:
+                    key:
+                        stagger: 5
+                        origin:
+                            - -10
+                            - -20
+                        splay: -4
+                        column_net: P011
+                    rows: {}
+                    name: c4
+                c5:
+                    key:
+                        stagger: -6
+                        origin:
+                            - -10
+                            - -10
+                        splay: -4
+                        column_net: P104
+                    rows: {}
+                    name: c5
+                c6:
+                    key:
+                        stagger: -2
+                        origin:
+                            - -5
+                            - -9
+                        splay: -4
+                        column_net: P106
+                    rows: {}
+                    name: c6
+            rows:
+                r3:
+                    key:
+                        row_net: P017
+                r2:
+                    key:
+                        row_net: P008
+                r1:
+                    key:
+                        row_net: P006
+            name: beans
+        col:
+            key:
+                stagger: 15
+                origin:
+                    - -12
+                    - -19
+                splay: -4
+                column_net: P100
+            rows: {}
+            name: c3
+        row: r1
+        mirrored: true
+        bind:
+            - 0
+            - 10
+            - 10
+            - 0
+mirror_beans_c4_r3:
+    x: 336.2035952
+    'y': -80.9912429
+    r: 8
+    meta:
+        stagger: 5
+        spread: 18
+        splay: -4
+        origin:
+            - -10
+            - -20
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 17
+        padding: 17
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_c4_r3
+        name: mirror_beans_c4_r3
+        column_net: P011
+        key:
+            row_net: P017
+        zone:
+            key:
+                padding: 1ky
+                spread: 1kx
+            columns:
+                c1:
+                    key:
+                        column_net: P022
+                    rows: {}
+                    name: c1
+                c2:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: c2
+                c3:
+                    key:
+                        stagger: 15
+                        origin:
+                            - -12
+                            - -19
+                        splay: -4
+                        column_net: P100
+                    rows: {}
+                    name: c3
+                c4:
+                    key:
+                        stagger: 5
+                        origin:
+                            - -10
+                            - -20
+                        splay: -4
+                        column_net: P011
+                    rows: {}
+                    name: c4
+                c5:
+                    key:
+                        stagger: -6
+                        origin:
+                            - -10
+                            - -10
+                        splay: -4
+                        column_net: P104
+                    rows: {}
+                    name: c5
+                c6:
+                    key:
+                        stagger: -2
+                        origin:
+                            - -5
+                            - -9
+                        splay: -4
+                        column_net: P106
+                    rows: {}
+                    name: c6
+            rows:
+                r3:
+                    key:
+                        row_net: P017
+                r2:
+                    key:
+                        row_net: P008
+                r1:
+                    key:
+                        row_net: P006
+            name: beans
+        col:
+            key:
+                stagger: 5
+                origin:
+                    - -10
+                    - -20
+                splay: -4
+                column_net: P011
+            rows: {}
+            name: c4
+        row: r3
+        mirrored: true
+        bind:
+            - 10
+            - 10
+            - 0
+            - 10
+mirror_beans_c4_r2:
+    x: 333.8376525
+    'y': -64.1566857
+    r: 8
+    meta:
+        stagger: 5
+        spread: 18
+        splay: -4
+        origin:
+            - -10
+            - -20
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 17
+        padding: 17
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_c4_r2
+        name: mirror_beans_c4_r2
+        column_net: P011
+        key:
+            row_net: P008
+        zone:
+            key:
+                padding: 1ky
+                spread: 1kx
+            columns:
+                c1:
+                    key:
+                        column_net: P022
+                    rows: {}
+                    name: c1
+                c2:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: c2
+                c3:
+                    key:
+                        stagger: 15
+                        origin:
+                            - -12
+                            - -19
+                        splay: -4
+                        column_net: P100
+                    rows: {}
+                    name: c3
+                c4:
+                    key:
+                        stagger: 5
+                        origin:
+                            - -10
+                            - -20
+                        splay: -4
+                        column_net: P011
+                    rows: {}
+                    name: c4
+                c5:
+                    key:
+                        stagger: -6
+                        origin:
+                            - -10
+                            - -10
+                        splay: -4
+                        column_net: P104
+                    rows: {}
+                    name: c5
+                c6:
+                    key:
+                        stagger: -2
+                        origin:
+                            - -5
+                            - -9
+                        splay: -4
+                        column_net: P106
+                    rows: {}
+                    name: c6
+            rows:
+                r3:
+                    key:
+                        row_net: P017
+                r2:
+                    key:
+                        row_net: P008
+                r1:
+                    key:
+                        row_net: P006
+            name: beans
+        col:
+            key:
+                stagger: 5
+                origin:
+                    - -10
+                    - -20
+                splay: -4
+                column_net: P011
+            rows: {}
+            name: c4
+        row: r2
+        mirrored: true
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+mirror_beans_c4_r1:
+    x: 331.4717098
+    'y': -47.3221285
+    r: 8
+    meta:
+        stagger: 5
+        spread: 18
+        splay: -4
+        origin:
+            - -10
+            - -20
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 17
+        padding: 17
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_c4_r1
+        name: mirror_beans_c4_r1
+        column_net: P011
+        key:
+            row_net: P006
+        zone:
+            key:
+                padding: 1ky
+                spread: 1kx
+            columns:
+                c1:
+                    key:
+                        column_net: P022
+                    rows: {}
+                    name: c1
+                c2:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: c2
+                c3:
+                    key:
+                        stagger: 15
+                        origin:
+                            - -12
+                            - -19
+                        splay: -4
+                        column_net: P100
+                    rows: {}
+                    name: c3
+                c4:
+                    key:
+                        stagger: 5
+                        origin:
+                            - -10
+                            - -20
+                        splay: -4
+                        column_net: P011
+                    rows: {}
+                    name: c4
+                c5:
+                    key:
+                        stagger: -6
+                        origin:
+                            - -10
+                            - -10
+                        splay: -4
+                        column_net: P104
+                    rows: {}
+                    name: c5
+                c6:
+                    key:
+                        stagger: -2
+                        origin:
+                            - -5
+                            - -9
+                        splay: -4
+                        column_net: P106
+                    rows: {}
+                    name: c6
+            rows:
+                r3:
+                    key:
+                        row_net: P017
+                r2:
+                    key:
+                        row_net: P008
+                r1:
+                    key:
+                        row_net: P006
+            name: beans
+        col:
+            key:
+                stagger: 5
+                origin:
+                    - -10
+                    - -20
+                splay: -4
+                column_net: P011
+            rows: {}
+            name: c4
+        row: r1
+        mirrored: true
+        bind:
+            - 0
+            - 0
+            - 10
+            - 0
+mirror_beans_c5_r3:
+    x: 318.6476274
+    'y': -90.24655770000001
+    r: 12
+    meta:
+        stagger: -6
+        spread: 18
+        splay: -4
+        origin:
+            - -10
+            - -10
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 17
+        padding: 17
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_c5_r3
+        name: mirror_beans_c5_r3
+        column_net: P104
+        key:
+            row_net: P017
+        zone:
+            key:
+                padding: 1ky
+                spread: 1kx
+            columns:
+                c1:
+                    key:
+                        column_net: P022
+                    rows: {}
+                    name: c1
+                c2:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: c2
+                c3:
+                    key:
+                        stagger: 15
+                        origin:
+                            - -12
+                            - -19
+                        splay: -4
+                        column_net: P100
+                    rows: {}
+                    name: c3
+                c4:
+                    key:
+                        stagger: 5
+                        origin:
+                            - -10
+                            - -20
+                        splay: -4
+                        column_net: P011
+                    rows: {}
+                    name: c4
+                c5:
+                    key:
+                        stagger: -6
+                        origin:
+                            - -10
+                            - -10
+                        splay: -4
+                        column_net: P104
+                    rows: {}
+                    name: c5
+                c6:
+                    key:
+                        stagger: -2
+                        origin:
+                            - -5
+                            - -9
+                        splay: -4
+                        column_net: P106
+                    rows: {}
+                    name: c6
+            rows:
+                r3:
+                    key:
+                        row_net: P017
+                r2:
+                    key:
+                        row_net: P008
+                r1:
+                    key:
+                        row_net: P006
+            name: beans
+        col:
+            key:
+                stagger: -6
+                origin:
+                    - -10
+                    - -10
+                splay: -4
+                column_net: P104
+            rows: {}
+            name: c5
+        row: r3
+        mirrored: true
+        bind:
+            - 10
+            - 10
+            - 0
+            - 0
+mirror_beans_c5_r2:
+    x: 315.11312869999995
+    'y': -73.61804850000001
+    r: 12
+    meta:
+        stagger: -6
+        spread: 18
+        splay: -4
+        origin:
+            - -10
+            - -10
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 17
+        padding: 17
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_c5_r2
+        name: mirror_beans_c5_r2
+        column_net: P104
+        key:
+            row_net: P008
+        zone:
+            key:
+                padding: 1ky
+                spread: 1kx
+            columns:
+                c1:
+                    key:
+                        column_net: P022
+                    rows: {}
+                    name: c1
+                c2:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: c2
+                c3:
+                    key:
+                        stagger: 15
+                        origin:
+                            - -12
+                            - -19
+                        splay: -4
+                        column_net: P100
+                    rows: {}
+                    name: c3
+                c4:
+                    key:
+                        stagger: 5
+                        origin:
+                            - -10
+                            - -20
+                        splay: -4
+                        column_net: P011
+                    rows: {}
+                    name: c4
+                c5:
+                    key:
+                        stagger: -6
+                        origin:
+                            - -10
+                            - -10
+                        splay: -4
+                        column_net: P104
+                    rows: {}
+                    name: c5
+                c6:
+                    key:
+                        stagger: -2
+                        origin:
+                            - -5
+                            - -9
+                        splay: -4
+                        column_net: P106
+                    rows: {}
+                    name: c6
+            rows:
+                r3:
+                    key:
+                        row_net: P017
+                r2:
+                    key:
+                        row_net: P008
+                r1:
+                    key:
+                        row_net: P006
+            name: beans
+        col:
+            key:
+                stagger: -6
+                origin:
+                    - -10
+                    - -10
+                splay: -4
+                column_net: P104
+            rows: {}
+            name: c5
+        row: r2
+        mirrored: true
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+mirror_beans_c5_r1:
+    x: 311.57863
+    'y': -56.98953930000002
+    r: 12
+    meta:
+        stagger: -6
+        spread: 18
+        splay: -4
+        origin:
+            - -10
+            - -10
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 17
+        padding: 17
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_c5_r1
+        name: mirror_beans_c5_r1
+        column_net: P104
+        key:
+            row_net: P006
+        zone:
+            key:
+                padding: 1ky
+                spread: 1kx
+            columns:
+                c1:
+                    key:
+                        column_net: P022
+                    rows: {}
+                    name: c1
+                c2:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: c2
+                c3:
+                    key:
+                        stagger: 15
+                        origin:
+                            - -12
+                            - -19
+                        splay: -4
+                        column_net: P100
+                    rows: {}
+                    name: c3
+                c4:
+                    key:
+                        stagger: 5
+                        origin:
+                            - -10
+                            - -20
+                        splay: -4
+                        column_net: P011
+                    rows: {}
+                    name: c4
+                c5:
+                    key:
+                        stagger: -6
+                        origin:
+                            - -10
+                            - -10
+                        splay: -4
+                        column_net: P104
+                    rows: {}
+                    name: c5
+                c6:
+                    key:
+                        stagger: -2
+                        origin:
+                            - -5
+                            - -9
+                        splay: -4
+                        column_net: P106
+                    rows: {}
+                    name: c6
+            rows:
+                r3:
+                    key:
+                        row_net: P017
+                r2:
+                    key:
+                        row_net: P008
+                r1:
+                    key:
+                        row_net: P006
+            name: beans
+        col:
+            key:
+                stagger: -6
+                origin:
+                    - -10
+                    - -10
+                splay: -4
+                column_net: P104
+            rows: {}
+            name: c5
+        row: r1
+        mirrored: true
+        bind:
+            - 0
+            - 0
+            - 10
+            - 10
+mirror_beans_c6_r3:
+    x: 300.9316924
+    'y': -96.4358649
+    r: 16
+    meta:
+        stagger: -2
+        spread: 18
+        splay: -4
+        origin:
+            - -5
+            - -9
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 17
+        padding: 17
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_c6_r3
+        name: mirror_beans_c6_r3
+        column_net: P106
+        key:
+            row_net: P017
+        zone:
+            key:
+                padding: 1ky
+                spread: 1kx
+            columns:
+                c1:
+                    key:
+                        column_net: P022
+                    rows: {}
+                    name: c1
+                c2:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: c2
+                c3:
+                    key:
+                        stagger: 15
+                        origin:
+                            - -12
+                            - -19
+                        splay: -4
+                        column_net: P100
+                    rows: {}
+                    name: c3
+                c4:
+                    key:
+                        stagger: 5
+                        origin:
+                            - -10
+                            - -20
+                        splay: -4
+                        column_net: P011
+                    rows: {}
+                    name: c4
+                c5:
+                    key:
+                        stagger: -6
+                        origin:
+                            - -10
+                            - -10
+                        splay: -4
+                        column_net: P104
+                    rows: {}
+                    name: c5
+                c6:
+                    key:
+                        stagger: -2
+                        origin:
+                            - -5
+                            - -9
+                        splay: -4
+                        column_net: P106
+                    rows: {}
+                    name: c6
+            rows:
+                r3:
+                    key:
+                        row_net: P017
+                r2:
+                    key:
+                        row_net: P008
+                r1:
+                    key:
+                        row_net: P006
+            name: beans
+        col:
+            key:
+                stagger: -2
+                origin:
+                    - -5
+                    - -9
+                splay: -4
+                column_net: P106
+            rows: {}
+            name: c6
+        row: r3
+        mirrored: true
+        bind:
+            - 10
+            - 0
+            - 0
+            - 0
+mirror_beans_c6_r2:
+    x: 296.2458574
+    'y': -80.0944161
+    r: 16
+    meta:
+        stagger: -2
+        spread: 18
+        splay: -4
+        origin:
+            - -5
+            - -9
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 17
+        padding: 17
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_c6_r2
+        name: mirror_beans_c6_r2
+        column_net: P106
+        key:
+            row_net: P008
+        zone:
+            key:
+                padding: 1ky
+                spread: 1kx
+            columns:
+                c1:
+                    key:
+                        column_net: P022
+                    rows: {}
+                    name: c1
+                c2:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: c2
+                c3:
+                    key:
+                        stagger: 15
+                        origin:
+                            - -12
+                            - -19
+                        splay: -4
+                        column_net: P100
+                    rows: {}
+                    name: c3
+                c4:
+                    key:
+                        stagger: 5
+                        origin:
+                            - -10
+                            - -20
+                        splay: -4
+                        column_net: P011
+                    rows: {}
+                    name: c4
+                c5:
+                    key:
+                        stagger: -6
+                        origin:
+                            - -10
+                            - -10
+                        splay: -4
+                        column_net: P104
+                    rows: {}
+                    name: c5
+                c6:
+                    key:
+                        stagger: -2
+                        origin:
+                            - -5
+                            - -9
+                        splay: -4
+                        column_net: P106
+                    rows: {}
+                    name: c6
+            rows:
+                r3:
+                    key:
+                        row_net: P017
+                r2:
+                    key:
+                        row_net: P008
+                r1:
+                    key:
+                        row_net: P006
+            name: beans
+        col:
+            key:
+                stagger: -2
+                origin:
+                    - -5
+                    - -9
+                splay: -4
+                column_net: P106
+            rows: {}
+            name: c6
+        row: r2
+        mirrored: true
+        bind:
+            - 10
+            - 0
+            - 10
+            - 10
+mirror_beans_c6_r1:
+    x: 291.5600224
+    'y': -63.75296730000001
+    r: 16
+    meta:
+        stagger: -2
+        spread: 18
+        splay: -4
+        origin:
+            - -5
+            - -9
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 17
+        padding: 17
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_c6_r1
+        name: mirror_beans_c6_r1
+        column_net: P106
+        key:
+            row_net: P006
+        zone:
+            key:
+                padding: 1ky
+                spread: 1kx
+            columns:
+                c1:
+                    key:
+                        column_net: P022
+                    rows: {}
+                    name: c1
+                c2:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                    rows: {}
+                    name: c2
+                c3:
+                    key:
+                        stagger: 15
+                        origin:
+                            - -12
+                            - -19
+                        splay: -4
+                        column_net: P100
+                    rows: {}
+                    name: c3
+                c4:
+                    key:
+                        stagger: 5
+                        origin:
+                            - -10
+                            - -20
+                        splay: -4
+                        column_net: P011
+                    rows: {}
+                    name: c4
+                c5:
+                    key:
+                        stagger: -6
+                        origin:
+                            - -10
+                            - -10
+                        splay: -4
+                        column_net: P104
+                    rows: {}
+                    name: c5
+                c6:
+                    key:
+                        stagger: -2
+                        origin:
+                            - -5
+                            - -9
+                        splay: -4
+                        column_net: P106
+                    rows: {}
+                    name: c6
+            rows:
+                r3:
+                    key:
+                        row_net: P017
+                r2:
+                    key:
+                        row_net: P008
+                r1:
+                    key:
+                        row_net: P006
+            name: beans
+        col:
+            key:
+                stagger: -2
+                origin:
+                    - -5
+                    - -9
+                splay: -4
+                column_net: P106
+            rows: {}
+            name: c6
+        row: r1
+        mirrored: true
+        bind:
+            - 0
+            - 0
+            - 10
+            - 10
+mirror_thumbs_tc1_tr1:
+    x: 356.0200608
+    'y': -103.52611710000001
+    r: 6
+    meta:
+        stagger: 0
+        spread: 18
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 17
+        padding: 17
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_tc1_tr1
+        name: mirror_thumbs_tc1_tr1
+        key:
+            row_net: P020
+        zone:
+            key:
+                padding: 1ky
+                spread: 1kx
+            columns:
+                tc1: null
+                tc2:
+                    key:
+                        stagger: 1
+                        origin:
+                            - -9
+                            - -10
+                        splay: -4
+                    rows: {}
+                    name: tc2
+                tc3:
+                    key:
+                        stagger: 0
+                        origin:
+                            - -9
+                            - -9
+                        splay: -8
+                    rows: {}
+                    name: tc3
+                tc4:
+                    key:
+                        stagger: 0
+                        origin:
+                            - -9
+                            - -9
+                        splay: -20
+                    rows: {}
+                    name: tc4
+                tc5:
+                    key:
+                        stagger: 0
+                        origin:
+                            - -9
+                            - -9
+                        splay: -20
+                    rows: {}
+                    name: tc5
+            rows:
+                tr1:
+                    key:
+                        row_net: P020
+            name: thumbs
+        col:
+            rows: {}
+            key: {}
+            name: tc1
+        row: tr1
+        mirrored: true
+        bind:
+            - 0
+            - 0
+            - 0
+            - 0
+mirror_thumbs_tc2_tr1:
+    x: 337.41036829999996
+    'y': -105.13232640000001
+    r: 10
+    meta:
+        stagger: 1
+        spread: 18
+        splay: -4
+        origin:
+            - -9
+            - -10
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 17
+        padding: 17
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_tc2_tr1
+        name: mirror_thumbs_tc2_tr1
+        key:
+            row_net: P020
+        zone:
+            key:
+                padding: 1ky
+                spread: 1kx
+            columns:
+                tc1: null
+                tc2:
+                    key:
+                        stagger: 1
+                        origin:
+                            - -9
+                            - -10
+                        splay: -4
+                    rows: {}
+                    name: tc2
+                tc3:
+                    key:
+                        stagger: 0
+                        origin:
+                            - -9
+                            - -9
+                        splay: -8
+                    rows: {}
+                    name: tc3
+                tc4:
+                    key:
+                        stagger: 0
+                        origin:
+                            - -9
+                            - -9
+                        splay: -20
+                    rows: {}
+                    name: tc4
+                tc5:
+                    key:
+                        stagger: 0
+                        origin:
+                            - -9
+                            - -9
+                        splay: -20
+                    rows: {}
+                    name: tc5
+            rows:
+                tr1:
+                    key:
+                        row_net: P020
+            name: thumbs
+        col:
+            key:
+                stagger: 1
+                origin:
+                    - -9
+                    - -10
+                splay: -4
+            rows: {}
+            name: tc2
+        row: tr1
+        mirrored: true
+        bind:
+            - 0
+            - 0
+            - 0
+            - 0
+mirror_thumbs_tc3_tr1:
+    x: 318.76927059999997
+    'y': -109.78007410000001
+    r: 18
+    meta:
+        stagger: 0
+        spread: 18
+        splay: -8
+        origin:
+            - -9
+            - -9
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 17
+        padding: 17
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_tc3_tr1
+        name: mirror_thumbs_tc3_tr1
+        key:
+            row_net: P020
+        zone:
+            key:
+                padding: 1ky
+                spread: 1kx
+            columns:
+                tc1: null
+                tc2:
+                    key:
+                        stagger: 1
+                        origin:
+                            - -9
+                            - -10
+                        splay: -4
+                    rows: {}
+                    name: tc2
+                tc3:
+                    key:
+                        stagger: 0
+                        origin:
+                            - -9
+                            - -9
+                        splay: -8
+                    rows: {}
+                    name: tc3
+                tc4:
+                    key:
+                        stagger: 0
+                        origin:
+                            - -9
+                            - -9
+                        splay: -20
+                    rows: {}
+                    name: tc4
+                tc5:
+                    key:
+                        stagger: 0
+                        origin:
+                            - -9
+                            - -9
+                        splay: -20
+                    rows: {}
+                    name: tc5
+            rows:
+                tr1:
+                    key:
+                        row_net: P020
+            name: thumbs
+        col:
+            key:
+                stagger: 0
+                origin:
+                    - -9
+                    - -9
+                splay: -8
+            rows: {}
+            name: tc3
+        row: tr1
+        mirrored: true
+        bind:
+            - 0
+            - 0
+            - 0
+            - 0
+mirror_thumbs_tc4_tr1:
+    x: 300.3578648
+    'y': -119.56959220000002
+    r: 38
+    meta:
+        stagger: 0
+        spread: 18
+        splay: -20
+        origin:
+            - -9
+            - -9
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 17
+        padding: 17
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_tc4_tr1
+        name: mirror_thumbs_tc4_tr1
+        key:
+            row_net: P020
+        zone:
+            key:
+                padding: 1ky
+                spread: 1kx
+            columns:
+                tc1: null
+                tc2:
+                    key:
+                        stagger: 1
+                        origin:
+                            - -9
+                            - -10
+                        splay: -4
+                    rows: {}
+                    name: tc2
+                tc3:
+                    key:
+                        stagger: 0
+                        origin:
+                            - -9
+                            - -9
+                        splay: -8
+                    rows: {}
+                    name: tc3
+                tc4:
+                    key:
+                        stagger: 0
+                        origin:
+                            - -9
+                            - -9
+                        splay: -20
+                    rows: {}
+                    name: tc4
+                tc5:
+                    key:
+                        stagger: 0
+                        origin:
+                            - -9
+                            - -9
+                        splay: -20
+                    rows: {}
+                    name: tc5
+            rows:
+                tr1:
+                    key:
+                        row_net: P020
+            name: thumbs
+        col:
+            key:
+                stagger: 0
+                origin:
+                    - -9
+                    - -9
+                splay: -20
+            rows: {}
+            name: tc4
+        row: tr1
+        mirrored: true
+        bind:
+            - 0
+            - 0
+            - 0
+            - 0
+mirror_thumbs_tc5_tr1:
+    x: 286.4050151
+    'y': -135.0658018
+    r: 58
+    meta:
+        stagger: 0
+        spread: 18
+        splay: -20
+        origin:
+            - -9
+            - -9
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 17
+        padding: 17
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_tc5_tr1
+        name: mirror_thumbs_tc5_tr1
+        key:
+            row_net: P020
+        zone:
+            key:
+                padding: 1ky
+                spread: 1kx
+            columns:
+                tc1: null
+                tc2:
+                    key:
+                        stagger: 1
+                        origin:
+                            - -9
+                            - -10
+                        splay: -4
+                    rows: {}
+                    name: tc2
+                tc3:
+                    key:
+                        stagger: 0
+                        origin:
+                            - -9
+                            - -9
+                        splay: -8
+                    rows: {}
+                    name: tc3
+                tc4:
+                    key:
+                        stagger: 0
+                        origin:
+                            - -9
+                            - -9
+                        splay: -20
+                    rows: {}
+                    name: tc4
+                tc5:
+                    key:
+                        stagger: 0
+                        origin:
+                            - -9
+                            - -9
+                        splay: -20
+                    rows: {}
+                    name: tc5
+            rows:
+                tr1:
+                    key:
+                        row_net: P020
+            name: thumbs
+        col:
+            key:
+                stagger: 0
+                origin:
+                    - -9
+                    - -9
+                splay: -20
+            rows: {}
+            name: tc5
+        row: tr1
+        mirrored: true
+        bind:
+            - 0
+            - 0
+            - 0
+            - 0

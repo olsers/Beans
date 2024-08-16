@@ -1,0 +1,367 @@
+units:
+  px: cx + 2
+  py: cy + 2
+
+  pushX: (cx / 2)
+  pushY: (cy / 2)
+
+  padX: pushX + 2
+  padY: pushY + 2
+
+  pad: 2
+
+  spacing: 0.75
+
+points:
+  key:
+    padding: cy + spacing
+    spread: cx + spacing
+  zones:
+    matrix:
+      #Fixes PCB placement in KiCAD
+      anchor:
+        shift: [100, -100]
+      columns:
+        first:
+          rows.only.skip: true
+          key:
+            stagger: 0
+            column_net: P031 
+        second:
+          rows.only.skip: true
+          key:
+            stagger: 2
+            column_net: P029 
+        third:
+          rows.only.skip: true
+          key:
+            stagger: 15
+            origin: [-12, -19]
+            splay: -4
+            column_net: P002
+        fourth:
+          rows.only.skip: true
+          key:
+            stagger: 5
+            origin: [-10, -20]
+            splay: -4
+            column_net: P115 
+        fifth:
+          rows.only.skip: true
+          key:
+            stagger: -6
+            origin: [-10, -10]
+            splay: -4
+            column_net: P113
+        sixth:
+          rows.only.skip: true
+          key:
+            stagger: -2
+            origin: [-5, -9]
+            splay: -4
+            column_net: P104
+      rows:
+        only:
+          row_net: P106
+        bottom:
+          row_net: P009
+        home:
+          row_net: P010
+        top:
+          row_net: P111
+    thumbcluster:
+      anchor:
+        ref: matrix_sixth_bottom
+        shift: [-53, -24]
+        rotate: 10
+      columns:
+        first:
+          key:
+            column_net: P029
+        second:
+          key:
+            stagger: 1
+            origin: [-9, -10]
+            splay: -4
+            column_net: P002
+        third:
+          key:
+            stagger: 0
+            origin: [-9, -9]
+            splay: -8
+            column_net: P115
+        fourth:
+          key:
+            stagger: 0
+            origin: [-9, -9]
+            splay: -20
+            column_net: P113
+        fifth:
+          key: 
+            stagger: 0
+            origin: [-9, -9]
+            splay: -20
+            column_net: P104
+      rows:
+        only:
+          row_net: P106
+  mirror:
+    ref: matrix_sixth_top
+    distance: 60
+
+outlines:
+  keys:
+    - what: rectangle
+      where: true
+      size: [14, 14]
+      fillet: 0
+  board_left:
+    - what: polygon
+      operation: stack
+      fillet: 2
+      points:
+        # Top
+        - ref: matrix_first_top
+          shift: [-padX, padY]
+        - ref: matrix_second_top
+          shift: [pushX - pad, padY]
+        - ref: matrix_third_top
+          shift: [-pushX - pad, padY]
+        - ref: matrix_third_top
+          shift: [pushX - pad, padY]
+        - ref: matrix_fourth_top
+          shift: [-pushX - pad, padY]
+        - ref: matrix_fourth_top
+          shift: [padX, padY]
+        - ref: matrix_fifth_top
+          shift: [-pushX + pad, padY]
+        - ref: matrix_fifth_top
+          shift: [padX, padY]
+        - ref: matrix_sixth_top
+          # Won't fillet unless small num added. Bug?
+          shift: [-pushX + pad + 0.0001, padY]
+        - ref: matrix_sixth_top
+          shift: [3.7padX, padY]
+        # Bottom
+        - ref: thumbcluster_fifth_only
+          shift: [padX, padY]
+        - ref: thumbcluster_fifth_only
+          shift: [padX, -padY]
+        - ref: thumbcluster_fourth_only
+          shift: [padX, -padY]
+        - ref: thumbcluster_third_only
+          shift: [padX, -padY]
+        - ref: thumbcluster_second_only
+          shift: [padX, -padY]
+        - ref: thumbcluster_second_only
+          shift: [-padX, -1.1padY]
+        - ref: thumbcluster_first_only
+          shift: [-padX, -padY]
+        - ref: matrix_second_bottom
+          shift: [0.6padX, -1.2padY]
+        - ref: matrix_first_bottom
+          shift: [-padX, -padY]
+
+        # Connect to top
+        - ref: matrix_first_top
+          shift: [-padX, -padY]
+  board_left_w/_keys:
+    - name: board_left
+    - operation: subtract
+      name: keys
+  board_right:
+    - what: polygon
+      operation: stack
+      fillet: 2
+      points:
+        # Top
+        - ref: mirror_matrix_first_top
+          shift: [-padX, padY]
+        - ref: mirror_matrix_second_top
+          shift: [pushX - pad, padY]
+        - ref: mirror_matrix_third_top
+          shift: [-pushX - pad, padY]
+        - ref: mirror_matrix_third_top
+          shift: [pushX - pad, padY]
+        - ref: mirror_matrix_fourth_top
+          shift: [-pushX - pad, padY]
+        - ref: mirror_matrix_fourth_top
+          shift: [padX, padY]
+        - ref: mirror_matrix_fifth_top
+          shift: [-pushX + pad, padY]
+        - ref: mirror_matrix_fifth_top
+          shift: [padX, padY]
+        - ref: mirror_matrix_sixth_top
+          # Won't fillet unless small num added. Bug?
+          shift: [-pushX + pad + 0.0001, padY]
+        - ref: mirror_matrix_sixth_top
+          shift: [3.7padX, padY]
+        # Bottom
+        - ref: mirror_thumbcluster_fifth_only
+          shift: [padX, padY]
+        - ref: mirror_thumbcluster_fifth_only
+          shift: [padX, -padY]
+        - ref: mirror_thumbcluster_fourth_only
+          shift: [padX, -padY]
+        - ref: mirror_thumbcluster_third_only
+          shift: [padX, -padY]
+        - ref: mirror_thumbcluster_second_only
+          shift: [padX, -padY]
+        - ref: mirror_thumbcluster_second_only
+          shift: [-padX, -1.1padY]
+        - ref: mirror_thumbcluster_first_only
+          shift: [-padX, -padY]
+        - ref: mirror_matrix_second_bottom
+          shift: [0.6padX, -1.2padY]
+        - ref: mirror_matrix_first_bottom
+          shift: [-padX, -padY]
+
+        # Connect to top
+        - ref: mirror_matrix_first_top
+          shift: [-padX, -padY]
+  board_right_w/_keys:
+    - name: board_right
+    - operation: subtract
+      name: keys
+
+pcbs:
+  left:
+    outlines:
+      main:
+        outline: board_left
+    footprints:
+    # Choc switches
+      choc_hotswap:
+        what: choc
+        where: /^(matrix_|thumbcluster_).*/
+        params:
+          keycaps: true
+          reverse: false
+          hotswap: true
+          from: "{{column_net}}"
+          to: "{{colrow}}"
+      # Main diodes
+      diode:
+        what: diode
+        where: /^(matrix_|thumbcluster_).*/
+        params:
+          from: "{{colrow}}"
+          to: "{{row_net}}"
+        adjust:
+          shift: [3, -5]
+      # Controller
+      nice_nano:
+        what: nice_nano
+        params:
+          orientation: down
+        where:
+          ref: matrix_sixth_top
+          shift: [2.25padX, -10]
+          rotate: -90
+      # Battery jack
+      jstph:
+        what: jstph
+        where:
+          ref: matrix_sixth_bottom
+          shift: [3.5padX, -padY]
+          rotate: -90
+        params:
+            side: B
+            pos: pos
+            neg: GND
+      # Reset button
+      reset_button:
+        what: button
+        params:
+          from: GND
+          to: RST
+        where:
+          ref: matrix_sixth_bottom
+          shift: [2padX, 0]
+          rotate: -90
+      # Battery on/off switch
+      battery_switch:
+        what: slider
+        where:
+            ref: matrix_sixth_bottom
+            shift: [3.5padX, 0]
+            rotate: -90
+        params:
+            from: pos
+            to: RAW
+      # Write "Beans V1" on the PCB
+      front_text: &text
+        what: text
+        where: &textWhere
+            ref: matrix_sixth_bottom
+            shift: [1.2padX, -9]
+        params: &textParams
+            text: Beans V1
+            justify: left
+            h_size: 3.0
+            v_size: 3.0
+            thickness: 0.4
+  right:
+    outlines:
+      main:
+        outline: board_right
+    footprints:
+    # Choc switches
+      choc_hotswap:
+        what: choc
+        where: /^(mirror_matrix_|mirror_thumbcluster_).*/
+        params:
+          keycaps: true
+          reverse: false
+          hotswap: true
+          from: "{{column_net}}"
+          to: "{{colrow}}"
+      # Main diodes
+      diode:
+        what: diode
+        where: /^(mirror_matrix_|mirror_thumbcluster_).*/
+        params:
+          from: "{{colrow}}"
+          to: "{{row_net}}"
+        adjust:
+          shift: [-3, -5]
+      # Controller
+      nice_nano:
+        what: nice_nano
+        params:
+          orientation: up
+        where:
+          ref: mirror_matrix_sixth_top
+          shift: [2.25padX, -10]
+          rotate: 90
+      # Battery jack
+      jstph:
+        what: jstph
+        where:
+          ref: mirror_matrix_sixth_bottom
+          shift: [3.5padX, -padY]
+          rotate: -90
+        params:
+            side: B
+            pos: pos
+            neg: GND
+      # Reset button
+      reset_button:
+        what: button
+        params:
+          from: GND
+          to: RST
+        where:
+          ref: mirror_matrix_sixth_bottom
+          shift: [2padX, 0]
+          rotate: -90
+      # Battery on/off switch
+      battery_switch:
+        what: slider
+        where:
+            ref: mirror_matrix_sixth_bottom
+            shift: [3.5padX, 0]
+            rotate: -90
+        params:
+            from: pos
+            to: RAW

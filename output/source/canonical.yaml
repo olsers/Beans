@@ -1,0 +1,374 @@
+units:
+    $default_width: 18
+    $default_height: 17
+    kx: cx
+    ky: cy
+    px: kx + 4
+    py: ky + 4
+points:
+    zones:
+        beans:
+            anchor:
+                shift:
+                    - 100
+                    - -100
+            key:
+                padding: 1ky
+                spread: 1kx
+            columns:
+                c1:
+                    key:
+                        column_net: P022
+                c2:
+                    key:
+                        stagger: 2
+                        column_net: P024
+                c3:
+                    key:
+                        stagger: 15
+                        origin:
+                            - -12
+                            - -19
+                        splay: -4
+                        column_net: P100
+                c4:
+                    key:
+                        stagger: 5
+                        origin:
+                            - -10
+                            - -20
+                        splay: -4
+                        column_net: P011
+                c5:
+                    key:
+                        stagger: -6
+                        origin:
+                            - -10
+                            - -10
+                        splay: -4
+                        column_net: P104
+                c6:
+                    key:
+                        stagger: -2
+                        origin:
+                            - -5
+                            - -9
+                        splay: -4
+                        column_net: P106
+            rows:
+                r3:
+                    key:
+                        row_net: P017
+                r2:
+                    key:
+                        row_net: P008
+                r1:
+                    key:
+                        row_net: P006
+        thumbs:
+            key:
+                padding: 1ky
+                spread: 1kx
+            anchor:
+                ref: beans_c6_r1
+                shift:
+                    - -51
+                    - -56
+                rotate: 10
+            columns:
+                tc1: null
+                tc2:
+                    key:
+                        stagger: 1
+                        origin:
+                            - -9
+                            - -10
+                        splay: -4
+                tc3:
+                    key:
+                        stagger: 0
+                        origin:
+                            - -9
+                            - -9
+                        splay: -8
+                tc4:
+                    key:
+                        stagger: 0
+                        origin:
+                            - -9
+                            - -9
+                        splay: -20
+                tc5:
+                    key:
+                        stagger: 0
+                        origin:
+                            - -9
+                            - -9
+                        splay: -20
+            rows:
+                tr1:
+                    key:
+                        row_net: P020
+    mirror:
+        ref: beans_c6_r1
+        distance: 5kx
+outlines:
+    raw:
+        -
+            what: rectangle
+            where: true
+            size:
+                - px
+                - py
+    keys:
+        -
+            what: rectangle
+            where: true
+            bound: false
+            size:
+                - kx-0.5
+                - ky-0.5
+    left:
+        -
+            what: polygon
+            operation: stack
+            points:
+                -
+                    ref: beans_c1_r1
+                    shift:
+                        - '-0.5px'
+                        - 0.45py
+                -
+                    ref: beans_c2_r1
+                    shift:
+                        - '-0.4px'
+                        - 0.5py
+                -
+                    ref: beans_c2_r1
+                    shift:
+                        - 0.45px
+                        - 0.5py
+                -
+                    ref: beans_c3_r1
+                    shift:
+                        - '-0.5px'
+                        - 0.5py
+                -
+                    ref: beans_c4_r1
+                    shift:
+                        - '-0.45px'
+                        - 0.5py
+                -
+                    ref: beans_c5_r1
+                    shift:
+                        - '-0.55px'
+                        - 0.8py
+                -
+                    ref: beans_c5_r1
+                    shift:
+                        - 0.5px
+                        - 0.5py
+                -
+                    ref: beans_c6_r1
+                    shift:
+                        - 1.7px
+                        - 0.5py
+                -
+                    ref: thumbs_tc5_tr1
+                    shift:
+                        - 0.5px
+                        - 0.45py
+                -
+                    ref: thumbs_tc5_tr1
+                    shift:
+                        - 0.5px
+                        - '-0.5py'
+                -
+                    ref: thumbs_tc4_tr1
+                    shift:
+                        - 0.4px
+                        - '-0.5py'
+                -
+                    ref: thumbs_tc3_tr1
+                    shift:
+                        - 0.4px
+                        - '-0.5py'
+                -
+                    ref: thumbs_tc2_tr1
+                    shift:
+                        - 0.4px
+                        - '-0.5py'
+                -
+                    ref: thumbs_tc1_tr1
+                    shift:
+                        - '-0.5px'
+                        - '-0.5py'
+                -
+                    ref: beans_c1_r3
+                    shift:
+                        - '-0.5px'
+                        - '-0.5py'
+            fillet: 2
+    right:
+        -
+            what: polygon
+            operation: stack
+            points:
+                -
+                    ref: mirror_beans_c1_r1
+                    shift:
+                        - '-0.5px'
+                        - 0.45py
+                -
+                    ref: mirror_beans_c2_r1
+                    shift:
+                        - '-0.4px'
+                        - 0.5py
+                -
+                    ref: mirror_beans_c2_r1
+                    shift:
+                        - 0.45px
+                        - 0.5py
+                -
+                    ref: mirror_beans_c3_r1
+                    shift:
+                        - '-0.5px'
+                        - 0.5py
+                -
+                    ref: mirror_beans_c4_r1
+                    shift:
+                        - '-0.45px'
+                        - 0.5py
+                -
+                    ref: mirror_beans_c5_r1
+                    shift:
+                        - '-0.55px'
+                        - 0.8py
+                -
+                    ref: mirror_beans_c5_r1
+                    shift:
+                        - 0.5px
+                        - 0.5py
+                -
+                    ref: mirror_beans_c6_r1
+                    shift:
+                        - 1.7px
+                        - 0.5py
+                -
+                    ref: mirror_thumbs_tc5_tr1
+                    shift:
+                        - 0.5px
+                        - 0.45py
+                -
+                    ref: mirror_thumbs_tc5_tr1
+                    shift:
+                        - 0.5px
+                        - '-0.5py'
+                -
+                    ref: mirror_thumbs_tc4_tr1
+                    shift:
+                        - 0.4px
+                        - '-0.5py'
+                -
+                    ref: mirror_thumbs_tc3_tr1
+                    shift:
+                        - 0.4px
+                        - '-0.5py'
+                -
+                    ref: mirror_thumbs_tc2_tr1
+                    shift:
+                        - 0.4px
+                        - '-0.5py'
+                -
+                    ref: mirror_thumbs_tc1_tr1
+                    shift:
+                        - '-0.5px'
+                        - '-0.5py'
+                -
+                    ref: mirror_beans_c1_r3
+                    shift:
+                        - '-0.5px'
+                        - '-0.5py'
+            fillet: 2
+    leftboard:
+        -
+            name: left
+        -
+            operation: subtract
+            name: keys
+    rightboard:
+        -
+            name: right
+        -
+            operation: subtract
+            name: keys
+    left&rightcombo:
+        -
+            name: left
+        -
+            operation: add
+            name: right
+    gigacombo:
+        -
+            name: left&rightcombo
+        -
+            operation: subtract
+            name: keys
+pcbs:
+    left:
+        outlines:
+            main:
+                outline: leftboard
+            footprints:
+                outline: leftboard
+                choc_hotswap:
+                    what: choc
+                    where: true
+                    params:
+                        keycaps: true
+                        reverse: false
+                        hotswap: true
+                        from: '{{column_net}}'
+                        to: '{{row_net}}'
+                diode:
+                    what: diode
+                    where: true
+                    params:
+                        from: '{{row_net}}'
+                        to: '{{column_net}}'
+                    adjust:
+                        shift:
+                            - 0
+                            - -5
+                nice_nano:
+                    what: nice_nano
+                    where:
+                        ref: beans_c6_r1
+                        shift:
+                            - 2kx
+                            - 0ky
+                        rotate: 0
+                    params:
+                        orientation: down
+                reset:
+                    what: button
+                    where:
+                        ref: beans_c6_r1
+                        shift:
+                            - 0
+                            - 0
+                        rotate: 0
+                    params:
+                        from: GND
+                        to: RST
+                jstph:
+                    what: JST
+                    where:
+                        ref: beans_c6_r1
+                        shift:
+                            - 0
+                            - 0
+                        rotate: 0
+                    params:
+                        from: '{{column_net}}'
+                        to: '{{row_net}}'
