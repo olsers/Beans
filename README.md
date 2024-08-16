@@ -3,8 +3,6 @@
 
 This is my working space for the Ergogen > kiCAD workflow.
 
----
-
 ## Progress:
 
 ### BeansV1
