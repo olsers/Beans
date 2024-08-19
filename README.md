@@ -1,5 +1,5 @@
 # Beans
-> what should I call my keyboard project floss? Beans.
+> what should I call my new keyboard project floss? Beans.
 
 This is my working space for the Ergogen > kiCAD workflow.
 
@@ -12,13 +12,14 @@ This is my working space for the Ergogen > kiCAD workflow.
 - Routed traces between everthing.
 - Sent two halves of to JLCPCB to get made.
 - Soldered all the components onto it (diodes, hotswap sockets, mill max pins and sockets, controllers, button, switch, battery header)
-- *in the process of figuring out the zmk fireware stuff*
+- Figure out how to create a ZMK firmware after much trial and error, and managed to flash both halves of keyboard. (currently typing this out on beans!)
+- OUTSTANDING: afix the batteries and connect via bluetooth.
 
 **Learnings thus far**
-- The inter column finger splay is extreme and actually quite uncomporable (from playing with it, not actually started typing properly yet).
+- The inter-column finger splay is extreme and actually quite uncomporable.
 - The 5th thumbkey is probably redundant.
 - The general spacing between keys should be a bit tighter.
 - I should figure out how to get both sides made as one snap-off-able pcb.
-
-### BeansV2
--  
+- Mod-tap is wicked difficult to wrap my head around - currently only using shift/D.
+- I should also figure out how to add holes for tenting. Also extra pcbs as baseplates.
+- A soldering iron to a keycap makes a surprisingly effective homeing dot.
