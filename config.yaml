@@ -5,8 +5,8 @@ units:
   pushX: (cx / 2)
   pushY: (cy / 2)
 
-  padX: pushX + 2
-  padY: pushY + 2
+  padX: pushX + 4
+  padY: pushY + 4
 
   pad: 2
 
@@ -14,14 +14,14 @@ units:
 
   diodeX: 3
   diodeY: 5
-  contX: 19
-  contY: 7
-  battX: 19.5
-  battY: 0
-  resetX: 13
-  resetY: 0
-  onoffX: 26.5
-  onoffY: 0
+  contX: 21
+  contY: 6
+  battX: 23
+  battY: 10
+  resetX: 15
+  resetY: 6
+  onoffX: 31.5
+  onoffY: 6
 
 points:
   key:
@@ -37,38 +37,38 @@ points:
           rows.only.skip: true
           key:
             stagger: 0
-            column_net: P031 
+            column_net: P104 
         second:
           rows.only.skip: true
           key:
             stagger: 2
-            column_net: P029 
+            column_net: P113 
         third:
           rows.only.skip: true
           key:
-            stagger: 15
+            stagger: 11
             # origin: [-10, 14]
             # splay: -2
-            column_net: P002
+            column_net: P115
         fourth:
           rows.only.skip: true
           key:
             stagger: 5
             # origin: [-10, 14]
             # splay: -2
-            column_net: P115 
+            column_net: P002 
         fifth:
           rows.only.skip: true
           key:
             stagger: -6
             # origin: [-10, 18]
             # splay: -2
-            column_net: P113
+            column_net: P029
         sixth:
           rows.only.skip: true
           key:
             stagger: -2
-            column_net: P104
+            column_net: P031
       rows:
         only:
           row_net: P106
@@ -86,23 +86,23 @@ points:
       columns:
         first:
           key:
-            column_net: P002
+            column_net: P115
         second:
           key:
             stagger: 1
-            column_net: P115
+            column_net: P002
         third:
           key:
             stagger: -1
             origin: [-9, -9]
             splay: -10
-            column_net: P113
+            column_net: P029
         fourth:
           key:
             stagger: -2
             origin: [-9, -9]
             splay: -10
-            column_net: P104
+            column_net: P031
       rows:
         only:
           row_net: P106
@@ -125,22 +125,23 @@ outlines:
         - ref: matrix_first_top
           shift: [-padX, padY]
         - ref: matrix_second_top
-          shift: [pushX - pad, padY]
+          shift: [0.4padX, padY]
         - ref: matrix_third_top
-          shift: [-pushX - pad, padY]
+          shift: [-padX, padY]
         - ref: matrix_third_top
-          shift: [pushX - pad, padY]
+          shift: [0.4padX, padY]
         - ref: matrix_fourth_top
-          shift: [-pushX - pad, padY]
+          shift: [-padX, padY]
         - ref: matrix_fourth_top
           shift: [padX, padY]
         - ref: matrix_fifth_top
-          shift: [-pushX + pad, padY]
+          shift: [-0.4padX, padY]
         - ref: matrix_fifth_top
-          shift: [4.3padX, padY]
+          shift: [4padX, padY]
+
         # Bottom
         - ref: thumbcluster_fourth_only
-          shift: [1.1padX, padY]
+          shift: [1.3padX, padY]
         - ref: thumbcluster_fourth_only
           shift: [padX, -padY]
         - ref: thumbcluster_fourth_only
@@ -150,13 +151,14 @@ outlines:
         - ref: thumbcluster_first_only
           shift: [-padX, -padY]
         - ref: matrix_first_bottom
-          shift: [3padX, -padY]
+          shift: [2padX, -padY]
         - ref: matrix_first_bottom
           shift: [-padX, -padY]
 
         # Connect to top
         - ref: matrix_first_top
           shift: [-padX, -padY]
+    
   board_left_w/_keys:
     - name: board_left
     - operation: subtract
@@ -170,42 +172,40 @@ outlines:
         - ref: mirror_matrix_first_top
           shift: [-padX, padY]
         - ref: mirror_matrix_second_top
-          shift: [pushX - pad, padY]
+          shift: [0.4padX, padY]
         - ref: mirror_matrix_third_top
-          shift: [-pushX - pad, padY]
+          shift: [-padX, padY]
         - ref: mirror_matrix_third_top
-          shift: [pushX - pad, padY]
+          shift: [0.4padX, padY]
         - ref: mirror_matrix_fourth_top
-          shift: [-pushX - pad, padY]
+          shift: [-padX, padY]
         - ref: mirror_matrix_fourth_top
           shift: [padX, padY]
         - ref: mirror_matrix_fifth_top
-          shift: [-pushX + pad, padY]
+          shift: [-0.4padX, padY]
         - ref: mirror_matrix_fifth_top
-          shift: [padX, padY]
-        - ref: mirror_matrix_sixth_top
-          shift: [2.65padX, padY]
+          shift: [4padX, padY]
+        
         # Bottom
         - ref: mirror_thumbcluster_fourth_only
-          shift: [1.22padX, padY]
+          shift: [1.3padX, padY]
         - ref: mirror_thumbcluster_fourth_only
           shift: [padX, -padY]
         - ref: mirror_thumbcluster_fourth_only
           shift: [-padX, -padY]
-        - ref: mirror_thumbcluster_second_only
-          shift: [padX, -1.1padY]
-        - ref: mirror_thumbcluster_second_only
-          shift: [-padX, -1.1padY]
+        - ref: mirror_thumbcluster_first_only
+          shift: [padX, -padY]
         - ref: mirror_thumbcluster_first_only
           shift: [-padX, -padY]
-        - ref: mirror_matrix_second_bottom
-          shift: [0.6padX, -1.2padY]
+        - ref: mirror_matrix_first_bottom
+          shift: [2padX, -padY]
         - ref: mirror_matrix_first_bottom
           shift: [-padX, -padY]
 
         # Connect to top
         - ref: mirror_matrix_first_top
           shift: [-padX, -padY]
+
   board_right_w/_keys:
     - name: board_right
     - operation: subtract
@@ -275,18 +275,30 @@ pcbs:
         params:
             from: pos
             to: RAW
-      # Write "Beans V1" on the PCB
-      front_text: &text
+      # # Write "Beans V2" on the PCB
+      # front_text: &text
+      #   what: text
+      #   where: &textWhere
+      #       ref: matrix_sixth_bottom
+      #       shift: [13, -11]
+      #   params: &textParams
+      #       text: Beans V2
+      #       justify: left
+      #       h_size: 2.0
+      #       v_size: 2.0
+      #       thickness: 0.4
+      # Write "Beans V2" on the PCB
+      name_text: &text
         what: text
         where: &textWhere
-            ref: matrix_sixth_bottom
-            shift: [11, -11]
+            ref: matrix_fourth_bottom
+            shift: [-8, -13]
         params: &textParams
             text: Beans V2
             justify: left
             h_size: 2.0
             v_size: 2.0
-            thickness: 0.4
+            thickness: 0.3
   right:
     outlines:
       main:
@@ -315,7 +327,7 @@ pcbs:
       nice_nano:
         what: nice_nano
         params:
-          orientation: up
+          orientation: down
         where:
           ref: mirror_matrix_sixth_top
           shift: [contX, -contY]
@@ -325,8 +337,8 @@ pcbs:
         what: jstph
         where:
           ref: mirror_matrix_sixth_bottom
-          shift: [battX, battY]
-          rotate: -90
+          shift: [battX, -battY]
+          rotate: 180
         params:
             side: B
             pos: pos

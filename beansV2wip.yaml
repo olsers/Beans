@@ -10,7 +10,18 @@ units:
 
   pad: 2
 
-  spacing: 0.75
+  spacing: 0.5
+
+  diodeX: 3
+  diodeY: 5
+  contX: 19
+  contY: 10
+  battX: 2padX
+  battY: padY
+  resetX: 17
+  resetY: 0
+  onoffX: 27
+  onoffY: 0
 
 points:
   key:
@@ -36,22 +47,16 @@ points:
           rows.only.skip: true
           key:
             stagger: 15
-            origin: [-10, 14]
-            splay: -2
             column_net: P002
         fourth:
           rows.only.skip: true
           key:
             stagger: 5
-            origin: [-10, 14]
-            splay: -2
             column_net: P115 
         fifth:
           rows.only.skip: true
           key:
             stagger: -6
-            origin: [-10, 18]
-            splay: -2
             column_net: P113
         sixth:
           rows.only.skip: true
@@ -70,32 +75,34 @@ points:
     thumbcluster:
       anchor:
         ref: matrix_sixth_bottom
-        shift: [-53, -21]
+        shift: [-44, -18]
         rotate: 0
       columns:
         first:
           key:
-            column_net: P029
+            column_net: P002
         second:
           key:
             stagger: 1
-            column_net: P002
+            column_net: P115
         third:
           key:
-            stagger: 1
-            column_net: P115
-        fourth:
-          key:
-            stagger: 0
+            stagger: -1
             origin: [-9, -9]
             splay: -10
             column_net: P113
+        fourth:
+          key:
+            stagger: -2
+            origin: [-9, -9]
+            splay: -10
+            column_net: P104
       rows:
         only:
           row_net: P106
   mirror:
     ref: matrix_sixth_top
-    distance: 100
+    distance: 70
 
 outlines:
   keys:
@@ -124,27 +131,20 @@ outlines:
         - ref: matrix_fifth_top
           shift: [-pushX + pad, padY]
         - ref: matrix_fifth_top
-          shift: [padX, padY]
-        - ref: matrix_sixth_top
-          # Won't fillet unless small num added. Bug?
-          shift: [-pushX + pad + 0.0001, padY]
-        - ref: matrix_sixth_top
-          shift: [2.65padX, padY]
+          shift: [4.3padX, padY]
         # Bottom
         - ref: thumbcluster_fourth_only
-          shift: [2padX, padY]
+          shift: [1.1padX, padY]
         - ref: thumbcluster_fourth_only
           shift: [padX, -padY]
-        - ref: thumbcluster_third_only
+        - ref: thumbcluster_fourth_only
+          shift: [-padX, -padY]
+        - ref: thumbcluster_first_only
           shift: [padX, -padY]
-        - ref: thumbcluster_second_only
-          shift: [padX, -padY]
-        - ref: thumbcluster_second_only
-          shift: [-padX, -1.1padY]
         - ref: thumbcluster_first_only
           shift: [-padX, -padY]
-        - ref: matrix_second_bottom
-          shift: [0.6padX, -1.2padY]
+        - ref: matrix_first_bottom
+          shift: [3padX, -padY]
         - ref: matrix_first_bottom
           shift: [-padX, -padY]
 
@@ -178,19 +178,16 @@ outlines:
         - ref: mirror_matrix_fifth_top
           shift: [padX, padY]
         - ref: mirror_matrix_sixth_top
-          # Won't fillet unless small num added. Bug?
-          shift: [-pushX + pad + 0.0001, padY]
-        - ref: mirror_matrix_sixth_top
           shift: [2.65padX, padY]
         # Bottom
         - ref: mirror_thumbcluster_fourth_only
-          shift: [2padX, padY]
+          shift: [1.22padX, padY]
         - ref: mirror_thumbcluster_fourth_only
           shift: [padX, -padY]
-        - ref: mirror_thumbcluster_third_only
-          shift: [padX, -padY]
+        - ref: mirror_thumbcluster_fourth_only
+          shift: [-padX, -padY]
         - ref: mirror_thumbcluster_second_only
-          shift: [padX, -padY]
+          shift: [padX, -1.1padY]
         - ref: mirror_thumbcluster_second_only
           shift: [-padX, -1.1padY]
         - ref: mirror_thumbcluster_first_only
@@ -232,7 +229,7 @@ pcbs:
           from: "{{colrow}}"
           to: "{{row_net}}"
         adjust:
-          shift: [3, -5]
+          shift: [diodeX, -diodeY]
       # Controller
       nice_nano:
         what: nice_nano
@@ -240,14 +237,14 @@ pcbs:
           orientation: down
         where:
           ref: matrix_sixth_top
-          shift: [2.25padX, -10]
+          shift: [contX, -contY]
           rotate: -90
       # Battery jack
       jstph:
         what: jstph
         where:
           ref: matrix_sixth_bottom
-          shift: [3.5padX, -padY]
+          shift: [battX, -battY]
           rotate: -90
         params:
             side: B
@@ -261,14 +258,14 @@ pcbs:
           to: RST
         where:
           ref: matrix_sixth_bottom
-          shift: [2padX, 0]
+          shift: [resetX, resetY]
           rotate: -90
       # Battery on/off switch
       battery_switch:
         what: slider
         where:
             ref: matrix_sixth_bottom
-            shift: [3.5padX, 0]
+            shift: [onoffX, onoffY]
             rotate: -90
         params:
             from: pos
@@ -277,13 +274,13 @@ pcbs:
       front_text: &text
         what: text
         where: &textWhere
-            ref: matrix_sixth_bottom
-            shift: [1.2padX, -9]
+            ref: matrix_fourth_bottom
+            shift: [-7.5, -12]
         params: &textParams
-            text: Beans V1
+            text: Beans V2
             justify: left
-            h_size: 3.0
-            v_size: 3.0
+            h_size: 2.0
+            v_size: 2.0
             thickness: 0.4
   right:
     outlines:
@@ -308,7 +305,7 @@ pcbs:
           from: "{{colrow}}"
           to: "{{row_net}}"
         adjust:
-          shift: [-3, -5]
+          shift: [-diodeX, -diodeY]
       # Controller
       nice_nano:
         what: nice_nano
@@ -316,14 +313,14 @@ pcbs:
           orientation: up
         where:
           ref: mirror_matrix_sixth_top
-          shift: [2.25padX, -10]
+          shift: [contX, -contY]
           rotate: 90
       # Battery jack
       jstph:
         what: jstph
         where:
           ref: mirror_matrix_sixth_bottom
-          shift: [3.5padX, -padY]
+          shift: [battX, battY]
           rotate: -90
         params:
             side: B
@@ -337,14 +334,14 @@ pcbs:
           to: RST
         where:
           ref: mirror_matrix_sixth_bottom
-          shift: [2padX, 0]
+          shift: [resetX, resetY]
           rotate: -90
       # Battery on/off switch
       battery_switch:
         what: slider
         where:
             ref: mirror_matrix_sixth_bottom
-            shift: [3.5padX, 0]
+            shift: [onoffX, onoffY]
             rotate: -90
         params:
             from: pos
