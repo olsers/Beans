@@ -93,7 +93,7 @@
         "shorting_items": "error",
         "silk_edge_clearance": "ignore",
         "silk_over_copper": "ignore",
-        "silk_overlap": "ignore",
+        "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -221,7 +221,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "left.kicad_pro",
+    "filename": "right.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -260,15 +260,15 @@
       },
       {
         "netclass": "Default",
-        "pattern": "first_bottom"
+        "pattern": "mirror_first_bottom"
       },
       {
         "netclass": "Default",
-        "pattern": "first_home"
+        "pattern": "mirror_first_home"
       },
       {
         "netclass": "Default",
-        "pattern": "first_top"
+        "pattern": "mirror_first_top"
       },
       {
         "netclass": "Default",
@@ -276,15 +276,15 @@
       },
       {
         "netclass": "Default",
-        "pattern": "second_bottom"
+        "pattern": "mirror_second_bottom"
       },
       {
         "netclass": "Default",
-        "pattern": "second_home"
+        "pattern": "mirror_second_home"
       },
       {
         "netclass": "Default",
-        "pattern": "second_top"
+        "pattern": "mirror_second_top"
       },
       {
         "netclass": "Default",
@@ -292,15 +292,15 @@
       },
       {
         "netclass": "Default",
-        "pattern": "third_bottom"
+        "pattern": "mirror_third_bottom"
       },
       {
         "netclass": "Default",
-        "pattern": "third_home"
+        "pattern": "mirror_third_home"
       },
       {
         "netclass": "Default",
-        "pattern": "third_top"
+        "pattern": "mirror_third_top"
       },
       {
         "netclass": "Default",
@@ -308,15 +308,15 @@
       },
       {
         "netclass": "Default",
-        "pattern": "fourth_bottom"
+        "pattern": "mirror_fourth_bottom"
       },
       {
         "netclass": "Default",
-        "pattern": "fourth_home"
+        "pattern": "mirror_fourth_home"
       },
       {
         "netclass": "Default",
-        "pattern": "fourth_top"
+        "pattern": "mirror_fourth_top"
       },
       {
         "netclass": "Default",
@@ -324,15 +324,15 @@
       },
       {
         "netclass": "Default",
-        "pattern": "fifth_bottom"
+        "pattern": "mirror_fifth_bottom"
       },
       {
         "netclass": "Default",
-        "pattern": "fifth_home"
+        "pattern": "mirror_fifth_home"
       },
       {
         "netclass": "Default",
-        "pattern": "fifth_top"
+        "pattern": "mirror_fifth_top"
       },
       {
         "netclass": "Default",
@@ -340,31 +340,31 @@
       },
       {
         "netclass": "Default",
-        "pattern": "sixth_bottom"
+        "pattern": "mirror_sixth_bottom"
       },
       {
         "netclass": "Default",
-        "pattern": "sixth_home"
+        "pattern": "mirror_sixth_home"
       },
       {
         "netclass": "Default",
-        "pattern": "sixth_top"
+        "pattern": "mirror_sixth_top"
       },
       {
         "netclass": "Default",
-        "pattern": "first_only"
+        "pattern": "mirror_first_only"
       },
       {
         "netclass": "Default",
-        "pattern": "second_only"
+        "pattern": "mirror_second_only"
       },
       {
         "netclass": "Default",
-        "pattern": "third_only"
+        "pattern": "mirror_third_only"
       },
       {
         "netclass": "Default",
-        "pattern": "fourth_only"
+        "pattern": "mirror_fourth_only"
       },
       {
         "netclass": "Default",

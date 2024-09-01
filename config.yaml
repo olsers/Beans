@@ -327,7 +327,7 @@ pcbs:
       nice_nano:
         what: nice_nano
         params:
-          orientation: down
+          orientation: up
         where:
           ref: mirror_matrix_sixth_top
           shift: [contX, -contY]
@@ -340,7 +340,6 @@ pcbs:
           shift: [battX, -battY]
           rotate: 180
         params:
-            side: B
             pos: pos
             neg: GND
       # Reset button
